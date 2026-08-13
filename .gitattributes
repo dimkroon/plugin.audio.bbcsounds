@@ -4,3 +4,5 @@
 Makefile export-ignore
 requirements.txt export-ignore
 tests/ export-ignore
+TODO.md export-ignore
+README.md export-ignore

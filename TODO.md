@@ -1,0 +1,32 @@
+# TODO
+- [-] update readme
+- [-] Check how it runs without being signed in.
+- [x] set test credentials
+- [x] Properly handle geo-blocks.
+- [x] Add a context menu subscribe/unsubscribe.
+- [x] Add a context menu add/remove bookmark.
+- [x] Report back play position.
+- [?] Add setting for list size.
+- [ ] Add default sorting setting for categories and other containers.
+- [x] Review titles of live items from the Home page.
+- [x] Play from the start.
+- [x] Resume AOD
+- [x] Search
+- [x] Add all live channels.
+- [ ] Find a way to render svg of live channel logos.
+- [ ] If a single folder is returned, display its contents.
+- [ ] IPTV integration.
+- [ ] Implement playing playlists
+- [ ] Implement downloads
+- [x] Message dialog when the user signs out on a device that is not signed in.
+- [x] Exit non-zero if a new version has been installed.
+- [x] Remove continue listening item.
+- [x] Handle the single item promo container.
+- [ ] Fix the error on a cancelled resume dialog.
+- [ ] Subdivide brand listings in series
+- [-] Test if stripping `my` from urls affects `limit` and has the 
+      same items in the same order.
+      - Categories do NOT have the same items, at least not in the same order.
+- [x] present live start/end times in the user's timezone.
+- [ ] Detect when system settings have changed and reload the app.
+- [ ] Try InputstreamFfmpegDirect.

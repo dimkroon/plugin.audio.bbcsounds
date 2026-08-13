@@ -1,0 +1,2696 @@
+{
+    "$schema": "https://rms.api.bbc.co.uk/docs/swagger.json#/definitions/ExperienceResponse",
+    "data": [
+        {
+            "type": "inline_header_module",
+            "id": "category",
+            "style": null,
+            "title": "Feel Good Tunes",
+            "description": "",
+            "data": {
+                "type": "container_item",
+                "id": "feel_good_tunes",
+                "urn": "urn:bbc:radio:tag:feel_good_tunes",
+                "tlec_urn": null,
+                "network": null,
+                "titles": {
+                    "primary": "Feel Good Tunes",
+                    "secondary": null,
+                    "tertiary": null
+                },
+                "synopses": {
+                    "short": "",
+                    "medium": null,
+                    "long": null
+                },
+                "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p09043m5.jpg",
+                "activities": [],
+                "uris": [],
+                "playable_count": null,
+                "recommendation": null
+            }
+        },
+        {
+            "type": "inline_display_module",
+            "id": "container_list",
+            "style": null,
+            "title": null,
+            "description": null,
+            "state": "ok",
+            "uris": {
+                "pagination": {
+                    "uri": "/v2/tagged/feel_good_tunes/playable?experience=domestic&offset={offset}&limit={limit}",
+                    "offset": 0,
+                    "limit": 30,
+                    "total": 67
+                },
+                "polling": null
+            },
+            "controls": null,
+            "total": 67,
+            "data": [
+                {
+                    "type": "playable_item",
+                    "id": "m002ztzj",
+                    "urn": "urn:bbc:radio:episode:m002ztzk",
+                    "network": {
+                        "id": "bbc_radio_six_indie_forever",
+                        "key": "radio6indieforever",
+                        "short_title": "Radio 6 Indie Forever",
+                        "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_radio_six_indie_forever/{type}_{size}.{format}",
+                        "network_type": "master_brand"
+                    },
+                    "titles": {
+                        "primary": "Indie Cloudbusters",
+                        "secondary": "Lift Your Mood with Indie Cloudbusters",
+                        "tertiary": null,
+                        "entity_title": "Lift Your Mood with Indie Cloudbusters"
+                    },
+                    "synopses": {
+                        "short": "Incoming: Indie brilliance! The kind that gets your shoulders loose and your mood lifted.",
+                        "medium": "Nathan Shepherd is here to steer you through some indie brilliance! The kind that gets your shoulders loose, your mood lifted, and your day rolling in the right direction.",
+                        "long": "Nathan Shepherd is here to steer you through another two hours of indie brilliance! The kind that gets your shoulders loose, your mood lifted, and your day rolling in the right direction.\n\nProduced in Cardiff by Bengo Media for BBC Radio 6 Music Indie Forever."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0nyxbzk.jpg",
+                    "duration": {
+                        "value": 7200,
+                        "label": "120 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "brand",
+                        "id": "m002zttd",
+                        "urn": "urn:bbc:radio:brand:m002zttd",
+                        "title": "Indie Cloudbusters",
+                        "synopses": {
+                            "short": "Indie bangers to replace the grey skies with sunshiiiine.",
+                            "medium": "Indie bangers to replace the grey skies with sunshiiiine.",
+                            "long": null
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 97000000,
+                                "label": "97 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 128000000,
+                                "label": "128 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 318000000,
+                                "label": "318 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2026-08-07T14:00:00Z",
+                        "to": "2026-09-22T09:00:00Z",
+                        "label": "Available for 44 days"
+                    },
+                    "release": {
+                        "date": "2026-08-07T00:00:00Z",
+                        "label": "07 Aug 2026"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=m002zttd&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "m002zj7s",
+                    "urn": "urn:bbc:radio:episode:m002zj7t",
+                    "network": {
+                        "id": "bbc_radio_one",
+                        "key": "radio1",
+                        "short_title": "Radio 1",
+                        "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_radio_one/{type}_{size}.{format}",
+                        "network_type": "master_brand"
+                    },
+                    "titles": {
+                        "primary": "Radio 1 Anthems",
+                        "secondary": "with Nat and Vicky",
+                        "tertiary": null,
+                        "entity_title": "with Nat and Vicky"
+                    },
+                    "synopses": {
+                        "short": "Nat O'Leary and Vicky Hawkesworth with big anthems and tunes you haven't heard in ages.",
+                        "medium": null,
+                        "long": "Nat O'Leary and Vicky Hawkesworth with big anthems and tunes you haven't heard in ages.\n\nProduced in Salford by BBC Audio for BBC Radio 1."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0m3b76r.jpg",
+                    "duration": {
+                        "value": 3600,
+                        "label": "60 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "brand",
+                        "id": "b094db4n",
+                        "urn": "urn:bbc:radio:brand:b094db4n",
+                        "title": "Radio 1 Anthems",
+                        "synopses": {
+                            "short": "Massive hits you haven't heard in ages from the 00s to now...",
+                            "medium": "Massive hits you haven't heard in ages from the 00s to now...",
+                            "long": null
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 49000000,
+                                "label": "49 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 65000000,
+                                "label": "65 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 160000000,
+                                "label": "160 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2026-08-07T10:00:00Z",
+                        "to": "2026-09-06T10:00:00Z",
+                        "label": "Available for 28 days"
+                    },
+                    "release": {
+                        "date": "2026-08-07T00:00:00Z",
+                        "label": "07 Aug 2026"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=b094db4n&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "m002zh8l",
+                    "urn": "urn:bbc:radio:episode:m002zh8m",
+                    "network": {
+                        "id": "bbc_asian_network",
+                        "key": "asiannetwork",
+                        "short_title": "Asian Network",
+                        "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_asian_network/{type}_{size}.{format}",
+                        "network_type": "master_brand"
+                    },
+                    "titles": {
+                        "primary": "Asian Network's Love Friday Mix",
+                        "secondary": "DJ Limelight",
+                        "tertiary": null,
+                        "entity_title": "DJ Limelight"
+                    },
+                    "synopses": {
+                        "short": "DJ Limelight is bringing the vibes for this week's Love Friday Mix!",
+                        "medium": "DJ Limelight is bringing the vibes for this week's Love Friday Mix! As wedding season is here we've got all the wedding bangers in this mix.",
+                        "long": "DJ Limelight is bringing the vibes for this week's Love Friday Mix! As wedding season is here, we've got all the wedding bangers in this mix. Expect to hear Tesher, Panjabi MC, Jasmine Sandlas, Burna Boy and loads more!\n\nProduced in Birmingham by BBC Audio for BBC Asian Network."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0p1wqq5.jpg",
+                    "duration": {
+                        "value": 1800,
+                        "label": "30 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "brand",
+                        "id": "m00021q1",
+                        "urn": "urn:bbc:radio:brand:m00021q1",
+                        "title": "Asian Network's Love Friday Mix",
+                        "synopses": {
+                            "short": "Exclusive mixes - and not just for Friday! Featuring some of the best South Asian DJs!",
+                            "medium": "Exclusive mixes - and not just for Friday! Featuring some of the best South Asian DJs!!",
+                            "long": null
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 25000000,
+                                "label": "25 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 33000000,
+                                "label": "33 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 81000000,
+                                "label": "81 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2026-08-06T23:30:00Z",
+                        "to": "2026-09-13T00:00:00Z",
+                        "label": "Available for 35 days"
+                    },
+                    "release": {
+                        "date": "2026-08-07T00:00:00Z",
+                        "label": "07 Aug 2026"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=m00021q1&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "m002zh3x",
+                    "urn": "urn:bbc:radio:episode:m002zh3y",
+                    "network": {
+                        "id": "bbc_asian_network",
+                        "key": "asiannetwork",
+                        "short_title": "Asian Network",
+                        "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_asian_network/{type}_{size}.{format}",
+                        "network_type": "master_brand"
+                    },
+                    "titles": {
+                        "primary": "Asian Network Certified",
+                        "secondary": "with Nikita Kanda",
+                        "tertiary": null,
+                        "entity_title": "with Nikita Kanda"
+                    },
+                    "synopses": {
+                        "short": "Your daily mix of Bollywood, Bhangra, UK garage, R&B, hip-hop and more with Nikita Kanda.",
+                        "medium": "Your daily mix of Bollywood, Bhangra, UK garage, R&B, hip-hop and more with Nikita Kanda.",
+                        "long": "Your daily mix of Bollywood, Bhangra, UK garage, R&B, hip-hop and more with Nikita Kanda. Hear tracks by Zack Knight, Shreya Ghoshal, Akon, Harshdeep Kaur, Panjabi MC, Ezu, Jasmine Sandlas and lots more!\n\nProduced in Birmingham by BBC Audio for BBC Asian Network."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0nqc0hl.jpg",
+                    "duration": {
+                        "value": 3600,
+                        "label": "60 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "brand",
+                        "id": "m000h9dz",
+                        "urn": "urn:bbc:radio:brand:m000h9dz",
+                        "title": "Asian Network Certified",
+                        "synopses": {
+                            "short": "Your daily mix of Bollywood, Bhangra, R&B and hip-hop. Plus info on our live music event.",
+                            "medium": "Your daily mix of Bollywood, Bhangra, UK garage, R&B, hip-hop and more. Find out how you can join us at Asian Network Certified in Birmingham: https://bbc.in/certified",
+                            "long": null
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 49000000,
+                                "label": "49 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 65000000,
+                                "label": "65 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 160000000,
+                                "label": "160 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2026-08-07T10:00:00Z",
+                        "to": "2026-09-06T10:00:00Z",
+                        "label": "Available for 28 days"
+                    },
+                    "release": {
+                        "date": "2026-08-07T00:00:00Z",
+                        "label": "07 Aug 2026"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=m000h9dz&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "m002zfkn",
+                    "urn": "urn:bbc:radio:episode:m002zfkq",
+                    "network": {
+                        "id": "bbc_radio_one_anthems",
+                        "key": "radio1anthems",
+                        "short_title": "Radio 1 Anthems",
+                        "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_radio_one_anthems/{type}_{size}.{format}",
+                        "network_type": "master_brand"
+                    },
+                    "titles": {
+                        "primary": "Radio 1's Workout Anthems",
+                        "secondary": "Calvin Harris, Sub Focus, Robin S and more",
+                        "tertiary": null,
+                        "entity_title": "Calvin Harris, Sub Focus, Robin S and more"
+                    },
+                    "synopses": {
+                        "short": "Motivational tunes to get you moving!",
+                        "medium": null,
+                        "long": "Motivational tunes to get you moving!\n\nProduced in Salford by BBC Audio for BBC Radio 1."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0m1px0y.jpg",
+                    "duration": {
+                        "value": 3600,
+                        "label": "60 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "brand",
+                        "id": "p04m6tcs",
+                        "urn": "urn:bbc:radio:brand:p04m6tcs",
+                        "title": "Radio 1's Workout Anthems",
+                        "synopses": {
+                            "short": "Motivational tunes to get you moving!",
+                            "medium": "Motivational tunes to get you moving!",
+                            "long": null
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 49000000,
+                                "label": "49 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 65000000,
+                                "label": "65 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 160000000,
+                                "label": "160 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2026-08-07T04:00:00Z",
+                        "to": "2026-09-25T07:00:00Z",
+                        "label": "Available for 47 days"
+                    },
+                    "release": {
+                        "date": "2026-08-07T00:00:00Z",
+                        "label": "07 Aug 2026"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=p04m6tcs&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "m002zf8x",
+                    "urn": "urn:bbc:radio:episode:m002zf8y",
+                    "network": {
+                        "id": "bbc_asian_network",
+                        "key": "asiannetwork",
+                        "short_title": "Asian Network",
+                        "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_asian_network/{type}_{size}.{format}",
+                        "network_type": "master_brand"
+                    },
+                    "titles": {
+                        "primary": "All Star Anthems",
+                        "secondary": "Garry Sandhu, F1rstman, Wankelmut and Akon",
+                        "tertiary": null,
+                        "entity_title": "Garry Sandhu, F1rstman, Wankelmut and Akon"
+                    },
+                    "synopses": {
+                        "short": "AJD weaves together Garry Sandhu, F1rstman and Ikky with Wankelmut and Akon.",
+                        "medium": "AJD weaves together Garry Sandhu, F1rstman and Ikky with Wankelmut and Akon, before bringing it home with a Jags Klimax classic. Perfect for a gym session or long drive.",
+                        "long": "AJD brings All Star Anthems - 30 minutes of huge global tunes and big singalong moments starting with Panjabi MC and Jack Harlow. Then, AJD weaves together Garry Sandhu, F1rstman and Ikky with Wankelmut and Akon, before bringing it home with a Jags Klimax classic. Whether you're smashing a gym session, on a long drive or just turning the kitchen into a dancefloor, this is the mix for every occasion.\n\nProduced by Glenvale Media for BBC Asian Network."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0m628kx.jpg",
+                    "duration": {
+                        "value": 1800,
+                        "label": "30 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "brand",
+                        "id": "m0002j3z",
+                        "urn": "urn:bbc:radio:brand:m0002j3z",
+                        "title": "All Star Anthems",
+                        "synopses": {
+                            "short": "The biggest Asian anthems and party tunes from AJD!",
+                            "medium": "The biggest Asian anthems and party tunes from AJD!",
+                            "long": null
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 25000000,
+                                "label": "25 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 33000000,
+                                "label": "33 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 81000000,
+                                "label": "81 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2026-08-04T23:30:00Z",
+                        "to": "2026-09-11T00:00:00Z",
+                        "label": "Available for 33 days"
+                    },
+                    "release": {
+                        "date": "2026-08-05T00:00:00Z",
+                        "label": "05 Aug 2026"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=m0002j3z&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "p0p1fm8g",
+                    "urn": "urn:bbc:radio:episode:p0p1fm8z",
+                    "network": {
+                        "id": "bbc_sounds_mixes",
+                        "key": "sounds",
+                        "short_title": "Mixes",
+                        "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_sounds_mixes/{type}_{size}.{format}",
+                        "network_type": "master_brand"
+                    },
+                    "titles": {
+                        "primary": "Pace Setter",
+                        "secondary": "Fuel Your Run With The Biggest Dance Hits",
+                        "tertiary": null,
+                        "entity_title": "Fuel Your Run With The Biggest Dance Hits"
+                    },
+                    "synopses": {
+                        "short": "Get your sweat on with a 2 hour mix of the biggest dance anthems!",
+                        "medium": "Get your sweat on with a 2 hour mix of the biggest dance anthems guaranteed to keep you grooving all the way to the finish line! MM",
+                        "long": "Get your sweat on with a 2 hour mix of the biggest dance anthems guaranteed to keep you grooving all the way to the finish line! Music from the likes of Sammy Virji, Caribou, The Blessed Madonna, ATB and loads more. MM"
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bv93l2.jpg",
+                    "duration": {
+                        "value": 7199,
+                        "label": "119 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "brand",
+                        "id": "p06n9m6v",
+                        "urn": "urn:bbc:radio:brand:p06n9m6v",
+                        "title": "Pace Setter",
+                        "synopses": {
+                            "short": "Hours of music mixes handpicked to get you up and running!",
+                            "medium": "Hours of music of all different genres, handpicked to get you up and running!",
+                            "long": "Hours of music of all different genres, handpicked to get you up and running! Hit subscribe to make sure you get new episodes as soon as they land."
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 97000000,
+                                "label": "97 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 128000000,
+                                "label": "128 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 318000000,
+                                "label": "318 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2026-08-04T07:00:00Z",
+                        "to": "2026-09-03T07:00:00Z",
+                        "label": "Available for 25 days"
+                    },
+                    "release": {
+                        "date": "2026-08-04T00:00:00Z",
+                        "label": "04 Aug 2026"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=p06n9m6v&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "m002ztz0",
+                    "urn": "urn:bbc:radio:episode:m002ztz1",
+                    "network": {
+                        "id": "bbc_radio_six_indie_forever",
+                        "key": "radio6indieforever",
+                        "short_title": "Radio 6 Indie Forever",
+                        "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_radio_six_indie_forever/{type}_{size}.{format}",
+                        "network_type": "master_brand"
+                    },
+                    "titles": {
+                        "primary": "Indie Cloudbusters",
+                        "secondary": "Turn up the indie!",
+                        "tertiary": null,
+                        "entity_title": "Turn up the indie!"
+                    },
+                    "synopses": {
+                        "short": "Cloudbusters is back with a playlist to send you stratospheric: lock in and turn it up!",
+                        "medium": "Indie Cloudbusters is back with a playlist to send you stratospheric: lock in and turn it up! With archive material from Courtney Barnett and a triple treat to get you moving!",
+                        "long": "Indie Cloudbusters is back with a playlist to send you stratospheric: lock in and turn it up! With archive material from Courtney Barnett and a triple treat to get you moving! \n\nProduced in Cardiff by Bengo Media for BBC Radio 6 Music Indie Forever."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0nyxbzk.jpg",
+                    "duration": {
+                        "value": 7200,
+                        "label": "120 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "brand",
+                        "id": "m002zttd",
+                        "urn": "urn:bbc:radio:brand:m002zttd",
+                        "title": "Indie Cloudbusters",
+                        "synopses": {
+                            "short": "Indie bangers to replace the grey skies with sunshiiiine.",
+                            "medium": "Indie bangers to replace the grey skies with sunshiiiine.",
+                            "long": null
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 97000000,
+                                "label": "97 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 128000000,
+                                "label": "128 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 318000000,
+                                "label": "318 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2026-08-04T09:00:00Z",
+                        "to": "2026-09-27T09:00:00Z",
+                        "label": "Available for 49 days"
+                    },
+                    "release": {
+                        "date": "2026-08-04T00:00:00Z",
+                        "label": "04 Aug 2026"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=m002zttd&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "m002zf88",
+                    "urn": "urn:bbc:radio:episode:m002zf89",
+                    "network": {
+                        "id": "bbc_asian_network",
+                        "key": "asiannetwork",
+                        "short_title": "Asian Network",
+                        "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_asian_network/{type}_{size}.{format}",
+                        "network_type": "master_brand"
+                    },
+                    "titles": {
+                        "primary": "Asian Network Certified",
+                        "secondary": "with Nikita Kanda",
+                        "tertiary": null,
+                        "entity_title": "with Nikita Kanda"
+                    },
+                    "synopses": {
+                        "short": "Your daily mix of Bollywood, Bhangra, UK garage, R&B, hip-hop and more with Nikita Kanda.",
+                        "medium": "Your daily mix of Bollywood, Bhangra, UK garage, R&B, hip-hop and more with Nikita Kanda.",
+                        "long": "Your daily mix of Bollywood, Bhangra, UK garage, R&B, hip-hop and more with Nikita Kanda. Hear tracks by Rahat Fateh Ali Khan, Kaur B, Sliime, Kanika Kapoor, Tesher, AP Dhillon and lots more!\n\nProduced in Birmingham by BBC Audio for BBC Asian Network."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0nqc0hl.jpg",
+                    "duration": {
+                        "value": 3600,
+                        "label": "60 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "brand",
+                        "id": "m000h9dz",
+                        "urn": "urn:bbc:radio:brand:m000h9dz",
+                        "title": "Asian Network Certified",
+                        "synopses": {
+                            "short": "Your daily mix of Bollywood, Bhangra, R&B and hip-hop. Plus info on our live music event.",
+                            "medium": "Your daily mix of Bollywood, Bhangra, UK garage, R&B, hip-hop and more. Find out how you can join us at Asian Network Certified in Birmingham: https://bbc.in/certified",
+                            "long": null
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 49000000,
+                                "label": "49 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 65000000,
+                                "label": "65 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 160000000,
+                                "label": "160 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2026-08-04T10:00:00Z",
+                        "to": "2026-09-03T10:00:00Z",
+                        "label": "Available for 25 days"
+                    },
+                    "release": {
+                        "date": "2026-08-04T00:00:00Z",
+                        "label": "04 Aug 2026"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=m000h9dz&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "m002zf6n",
+                    "urn": "urn:bbc:radio:episode:m002zf6q",
+                    "network": {
+                        "id": "bbc_asian_network",
+                        "key": "asiannetwork",
+                        "short_title": "Asian Network",
+                        "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_asian_network/{type}_{size}.{format}",
+                        "network_type": "master_brand"
+                    },
+                    "titles": {
+                        "primary": "Asian Network Punjabi",
+                        "secondary": "Bhangra Bounce",
+                        "tertiary": "Next Level Nostalgia",
+                        "entity_title": "Next Level Nostalgia"
+                    },
+                    "synopses": {
+                        "short": "This week’s Bhangra Bounce Mix brings you another edition of Next Level Nostalgia.",
+                        "medium": "This week’s Bhangra Bounce Mix brings you another edition of Next Level Nostalgia. You'll hear the sounds of Tarli Digital, Lumidee, Dippa Satrang and Coolio.",
+                        "long": "This week’s Bhangra Bounce Mix brings you another edition of Next Level Nostalgia, taking you back with 30 minutes of Bhangra throwbacks and crossover classics. You'll hear the sounds of Tarli Digital, Lumidee, Dippa Satrang and Coolio, alongside more favourites, all mixed together in Dipps’s signature style.\n\nYou can catch more mixes anytime on the BBC Sounds app, just stream or download and take the vibes with you wherever you go.\n\nProduced in Birmingham by Glenvale Media for BBC Asian Network."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0m6226k.jpg",
+                    "duration": {
+                        "value": 1800,
+                        "label": "30 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "brand",
+                        "id": "p0h6w1wq",
+                        "urn": "urn:bbc:radio:brand:p0h6w1wq",
+                        "title": "Asian Network Punjabi",
+                        "synopses": {
+                            "short": "The best in Bhangra and Punjabi music from the BBC's Asian Network.",
+                            "medium": "The best in Bhangra and Punjabi music from the BBC's Asian Network.",
+                            "long": null
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 25000000,
+                                "label": "25 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 33000000,
+                                "label": "33 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 81000000,
+                                "label": "81 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2026-08-02T23:30:00Z",
+                        "to": "2026-09-09T00:00:00Z",
+                        "label": "Available for 31 days"
+                    },
+                    "release": {
+                        "date": "2026-08-03T00:00:00Z",
+                        "label": "03 Aug 2026"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=m001y4wn&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "m002zf44",
+                    "urn": "urn:bbc:radio:episode:m002zf45",
+                    "network": {
+                        "id": "bbc_radio_one",
+                        "key": "radio1",
+                        "short_title": "Radio 1",
+                        "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_radio_one/{type}_{size}.{format}",
+                        "network_type": "master_brand"
+                    },
+                    "titles": {
+                        "primary": "Radio 1 Anthems",
+                        "secondary": "with Nat and Vicky",
+                        "tertiary": null,
+                        "entity_title": "with Nat and Vicky"
+                    },
+                    "synopses": {
+                        "short": "Nat O'Leary and Vicky Hawkesworth with big anthems and tunes you haven't heard in ages.",
+                        "medium": null,
+                        "long": "Nat O'Leary and Vicky Hawkesworth with big anthems and tunes you haven't heard in ages.\n\nProduced in Salford by BBC Audio for BBC Radio 1."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0m3b76r.jpg",
+                    "duration": {
+                        "value": 1680,
+                        "label": "28 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "brand",
+                        "id": "b094db4n",
+                        "urn": "urn:bbc:radio:brand:b094db4n",
+                        "title": "Radio 1 Anthems",
+                        "synopses": {
+                            "short": "Massive hits you haven't heard in ages from the 00s to now...",
+                            "medium": "Massive hits you haven't heard in ages from the 00s to now...",
+                            "long": null
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 24000000,
+                                "label": "24 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 31000000,
+                                "label": "31 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 75000000,
+                                "label": "75 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2026-08-01T10:00:00Z",
+                        "to": "2026-08-31T10:00:00Z",
+                        "label": "Available for 22 days"
+                    },
+                    "release": {
+                        "date": "2026-08-01T00:00:00Z",
+                        "label": "01 Aug 2026"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=b094db4n&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "m002z87g",
+                    "urn": "urn:bbc:radio:episode:m002z87h",
+                    "network": {
+                        "id": "bbc_radio_two",
+                        "key": "radio2",
+                        "short_title": "Radio 2",
+                        "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_radio_two/{type}_{size}.{format}",
+                        "network_type": "master_brand"
+                    },
+                    "titles": {
+                        "primary": "Michelle Visage",
+                        "secondary": "Michelle Visage's Handbag Hits",
+                        "tertiary": "Michelle's Mood is... WALKING ON SUNSHINE! Hits from David Guetta, Berri, Bob Marley, Texas and more",
+                        "entity_title": "Michelle's Mood is... WALKING ON SUNSHINE! Hits from David Guetta, Berri, Bob Marley, Texas and more"
+                    },
+                    "synopses": {
+                        "short": "Michelle's Mood is... WALKING ON SUNSHINE! Your weekly 30 minutes of nonstop bops is here!",
+                        "medium": "Michelle's Mood is... WALKING ON SUNSHINE! Your weekly 30 minutes of nonstop bops is here!",
+                        "long": "Michelle's Mood is... WALKING ON SUNSHINE! Your weekly 30 minutes of nonstop bops is here! Remember: wherever you lay your handbag, THAT is your dance floor. AND give the performance of your life for the Lip-Sync Anthem at the end.\n\nTo listen on most smart speakers, just say “ask BBC Sounds to play Michelle Visage\".\n\nA Mostest production for BBC Radio 2."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0m33j2c.jpg",
+                    "duration": {
+                        "value": 1800,
+                        "label": "30 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "brand",
+                        "id": "m001955m",
+                        "urn": "urn:bbc:radio:brand:m001955m",
+                        "title": "Michelle Visage",
+                        "synopses": {
+                            "short": "A handpicked playlist of Michelle's favourite disco, dance, pop and R'n'B bangers!",
+                            "medium": "Michelle is bringing the party to you with a handpicked playlist of her favourite disco, dance, pop and R'n'B bangers.",
+                            "long": "There's a new party across the UK and everyone is invited! There's no queue to get in, no dress code, no need to even leave your front door: wherever you are and whatever you are doing, Michelle is bringing the party to you with a handpicked playlist of her favourite disco, dance, pop and R'n'B bangers. Lip-synch into your hairbrush and apply glitter, your Friday night is all set to be FAB-U-LOUS!"
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 25000000,
+                                "label": "25 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 33000000,
+                                "label": "33 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 81000000,
+                                "label": "81 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2026-07-31T20:00:00Z",
+                        "to": "2026-08-30T20:00:00Z",
+                        "label": "Available for 21 days"
+                    },
+                    "release": {
+                        "date": "2026-07-31T00:00:00Z",
+                        "label": "31 Jul 2026"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=m001hqls&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "m002z7pj",
+                    "urn": "urn:bbc:radio:episode:m002z7pk",
+                    "network": {
+                        "id": "bbc_radio_one_anthems",
+                        "key": "radio1anthems",
+                        "short_title": "Radio 1 Anthems",
+                        "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_radio_one_anthems/{type}_{size}.{format}",
+                        "network_type": "master_brand"
+                    },
+                    "titles": {
+                        "primary": "Radio 1's Workout Anthems",
+                        "secondary": "Benny Benassi, Calvin Harris, Kelis and more",
+                        "tertiary": null,
+                        "entity_title": "Benny Benassi, Calvin Harris, Kelis and more"
+                    },
+                    "synopses": {
+                        "short": "Motivational tunes to get you moving!",
+                        "medium": null,
+                        "long": "Motivational tunes to get you moving!\n\nProduced in Salford by BBC Audio for BBC Radio 1."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0m1px0y.jpg",
+                    "duration": {
+                        "value": 3600,
+                        "label": "60 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "brand",
+                        "id": "p04m6tcs",
+                        "urn": "urn:bbc:radio:brand:p04m6tcs",
+                        "title": "Radio 1's Workout Anthems",
+                        "synopses": {
+                            "short": "Motivational tunes to get you moving!",
+                            "medium": "Motivational tunes to get you moving!",
+                            "long": null
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 49000000,
+                                "label": "49 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 65000000,
+                                "label": "65 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 160000000,
+                                "label": "160 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2026-07-31T04:00:00Z",
+                        "to": "2026-09-25T19:00:00Z",
+                        "label": "Available for 47 days"
+                    },
+                    "release": {
+                        "date": "2026-07-31T00:00:00Z",
+                        "label": "31 Jul 2026"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=p04m6tcs&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "m002z7mw",
+                    "urn": "urn:bbc:radio:episode:m002z7mx",
+                    "network": {
+                        "id": "bbc_radio_one",
+                        "key": "radio1",
+                        "short_title": "Radio 1",
+                        "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_radio_one/{type}_{size}.{format}",
+                        "network_type": "master_brand"
+                    },
+                    "titles": {
+                        "primary": "Radio 1 Anthems",
+                        "secondary": "with Nat and Vicky",
+                        "tertiary": null,
+                        "entity_title": "with Nat and Vicky"
+                    },
+                    "synopses": {
+                        "short": "Nat O'Leary and Vicky Hawkesworth with big anthems and tunes you haven't heard in ages.",
+                        "medium": null,
+                        "long": "Nat O'Leary and Vicky Hawkesworth with big anthems and tunes you haven't heard in ages.\n\nProduced in Salford by BBC Audio for BBC Radio 1."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0m3b76r.jpg",
+                    "duration": {
+                        "value": 3600,
+                        "label": "60 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "brand",
+                        "id": "b094db4n",
+                        "urn": "urn:bbc:radio:brand:b094db4n",
+                        "title": "Radio 1 Anthems",
+                        "synopses": {
+                            "short": "Massive hits you haven't heard in ages from the 00s to now...",
+                            "medium": "Massive hits you haven't heard in ages from the 00s to now...",
+                            "long": null
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 49000000,
+                                "label": "49 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 65000000,
+                                "label": "65 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 160000000,
+                                "label": "160 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2026-07-31T10:00:00Z",
+                        "to": "2026-08-30T10:00:00Z",
+                        "label": "Available for 21 days"
+                    },
+                    "release": {
+                        "date": "2026-07-31T00:00:00Z",
+                        "label": "31 Jul 2026"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=b094db4n&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "m002z6xb",
+                    "urn": "urn:bbc:radio:episode:m002z6xc",
+                    "network": {
+                        "id": "bbc_radio_two",
+                        "key": "radio2",
+                        "short_title": "Radio 2",
+                        "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_radio_two/{type}_{size}.{format}",
+                        "network_type": "master_brand"
+                    },
+                    "titles": {
+                        "primary": "Sophie Ellis-Bextor's Kitchen Disco",
+                        "secondary": "A sparkling disco!",
+                        "tertiary": null,
+                        "entity_title": "A sparkling disco!"
+                    },
+                    "synopses": {
+                        "short": "Sophie's back on the decks with more tunes that sound like the weekend...",
+                        "medium": "Sophie's back on the decks with more tunes that sound like the weekend. Get ready for an especially sparkly Disco Wonderland with a set of songs celebrating all kinds of jewellery!",
+                        "long": "Sophie's back on the decks with more tunes that sound like the weekend. Get ready for an especially sparkly Disco Wonderland with a set of songs celebrating all kinds of jewellery! That means tunes from the likes of Rihanna, Spandau Ballet and Beyonce.\n\nThe disco happens Friday nights from 9pm on Radio 2 - subscribe to BBC Sounds to never miss an episode. Also, you can say to most smart speakers: 'ask BBC Sounds to play Kitchen Disco'.\n\nProduced by Listen Entertainment for BBC Radio 2."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0cjtv08.jpg",
+                    "duration": {
+                        "value": 7020,
+                        "label": "117 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "brand",
+                        "id": "m000tsg9",
+                        "urn": "urn:bbc:radio:brand:m000tsg9",
+                        "title": "Sophie Ellis-Bextor's Kitchen Disco",
+                        "synopses": {
+                            "short": "Sophie Ellis-Bextor's weekly Kitchen Disco, nothing but non-stop feel-good tunes!",
+                            "medium": "Sophie Ellis-Bextor's weekly Kitchen Disco, nothing but non-stop feel-good tunes!",
+                            "long": null
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 94000000,
+                                "label": "94 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 125000000,
+                                "label": "125 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 310000000,
+                                "label": "310 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2026-07-31T22:00:00Z",
+                        "to": "2027-07-31T22:00:00Z",
+                        "label": "Available for 357 days"
+                    },
+                    "release": {
+                        "date": "2026-07-31T00:00:00Z",
+                        "label": "31 Jul 2026"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=m000tsg9&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "m002z6v8",
+                    "urn": "urn:bbc:radio:episode:m002z6v9",
+                    "network": {
+                        "id": "bbc_asian_network",
+                        "key": "asiannetwork",
+                        "short_title": "Asian Network",
+                        "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_asian_network/{type}_{size}.{format}",
+                        "network_type": "master_brand"
+                    },
+                    "titles": {
+                        "primary": "Asian Network Certified",
+                        "secondary": "with SMASHBengali",
+                        "tertiary": null,
+                        "entity_title": "with SMASHBengali"
+                    },
+                    "synopses": {
+                        "short": "It's an All Day Certified Party with SMASHBengali!",
+                        "medium": "It's an All Day Certified Party with SMASHBengali! We've got the best Bollywood, Bhangra, UK garage, R&B and hip-hop bangers to kickstart your weekend!",
+                        "long": "It's an All Day Certified Party with SMASHBengali! We've got the best Bollywood, Bhangra, UK garage, R&B and hip-hop bangers to kickstart your weekend!\n\nExpect bangers by the bucketload from artists such as Rihanna, Yo Yo Honey Singh, Tyga, Parthiv Gohil, Atif Aslam, J. Cole, Arijit Singh, Drake, Diljit Dosanjh and so many more!\n  \nProduced in Birmingham by BBC Audio for BBC Asian Network."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0nqby4k.jpg",
+                    "duration": {
+                        "value": 14400,
+                        "label": "240 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "brand",
+                        "id": "m000h9dz",
+                        "urn": "urn:bbc:radio:brand:m000h9dz",
+                        "title": "Asian Network Certified",
+                        "synopses": {
+                            "short": "Your daily mix of Bollywood, Bhangra, R&B and hip-hop. Plus info on our live music event.",
+                            "medium": "Your daily mix of Bollywood, Bhangra, UK garage, R&B, hip-hop and more. Find out how you can join us at Asian Network Certified in Birmingham: https://bbc.in/certified",
+                            "long": null
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 192000000,
+                                "label": "192 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 255000000,
+                                "label": "255 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 635000000,
+                                "label": "635 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2026-07-31T10:00:00Z",
+                        "to": "2026-08-30T10:00:00Z",
+                        "label": "Available for 21 days"
+                    },
+                    "release": {
+                        "date": "2026-07-31T00:00:00Z",
+                        "label": "31 Jul 2026"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=m000h9dz&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "m002z6sz",
+                    "urn": "urn:bbc:radio:episode:m002z6t0",
+                    "network": {
+                        "id": "bbc_asian_network",
+                        "key": "asiannetwork",
+                        "short_title": "Asian Network",
+                        "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_asian_network/{type}_{size}.{format}",
+                        "network_type": "master_brand"
+                    },
+                    "titles": {
+                        "primary": "Asian Network's Love Friday Mix",
+                        "secondary": "DJ LYAN soundtracks your summer!",
+                        "tertiary": null,
+                        "entity_title": "DJ LYAN soundtracks your summer!"
+                    },
+                    "synopses": {
+                        "short": "DJ LYAN is bringing the vibes for this week's Love Friday Mix!",
+                        "medium": "DJ LYAN is bringing the vibes for this week's Love Friday Mix! Featuring all your favourite Bollywood, Bhangra, hip hop and R&B bangers to get you grooving.",
+                        "long": "DJ LYAN is bringing the vibes for this week's Love Friday Mix! Featuring all your favourite Bollywood, Bhangra, hip hop and R&B bangers to get you grooving. Expect to hear tracks from DJ LYAN himself, plus Tyla, Missy Elliott, Nooran Sisters and many more!\n\nDownload the Love Friday Mix on BBC Sounds and take it with you wherever you are this summer!\n\nProduced in Birmingham by BBC Audio for BBC Asian Network."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0p1wpyh.jpg",
+                    "duration": {
+                        "value": 1800,
+                        "label": "30 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "brand",
+                        "id": "m00021q1",
+                        "urn": "urn:bbc:radio:brand:m00021q1",
+                        "title": "Asian Network's Love Friday Mix",
+                        "synopses": {
+                            "short": "Exclusive mixes - and not just for Friday! Featuring some of the best South Asian DJs!",
+                            "medium": "Exclusive mixes - and not just for Friday! Featuring some of the best South Asian DJs!!",
+                            "long": null
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 25000000,
+                                "label": "25 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 33000000,
+                                "label": "33 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 81000000,
+                                "label": "81 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2026-07-30T23:30:00Z",
+                        "to": "2026-09-06T00:00:00Z",
+                        "label": "Available for 28 days"
+                    },
+                    "release": {
+                        "date": "2026-07-31T00:00:00Z",
+                        "label": "31 Jul 2026"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=m00021q1&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "m002z80k",
+                    "urn": "urn:bbc:radio:episode:m002z80l",
+                    "network": {
+                        "id": "bbc_asian_network",
+                        "key": "asiannetwork",
+                        "short_title": "Asian Network",
+                        "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_asian_network/{type}_{size}.{format}",
+                        "network_type": "master_brand"
+                    },
+                    "titles": {
+                        "primary": "All Star Anthems",
+                        "secondary": "ANOTR, Jupiter Son, Imran Khan",
+                        "tertiary": null,
+                        "entity_title": "ANOTR, Jupiter Son, Imran Khan"
+                    },
+                    "synopses": {
+                        "short": "AJD blends ANOTR and 54 Ultra with Jupiter Son, Imran Khan and Farooq Got Audio.",
+                        "medium": "Built for the gym, a 5K run or the commute AJD blends ANOTR and 54 Ultra with Jupiter Son, Imran Khan and Farooq Got Audio in this high energy All Star Anthems mix.",
+                        "long": "AJD brings another essential All Star Anthems mix - 30 minutes of pure switch-on energy, built for the gym, a 5K run, the commute or whenever you need that extra push. Blending sounds from across the globe, AJD kicks things off with ANOTR and 54 Ultra before moving through Jupiter Son, Imran Khan and Farooq Got Audio.\n\nProduced by Glenvale Media for BBC Asian Network."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0m628kx.jpg",
+                    "duration": {
+                        "value": 1800,
+                        "label": "30 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "brand",
+                        "id": "m0002j3z",
+                        "urn": "urn:bbc:radio:brand:m0002j3z",
+                        "title": "All Star Anthems",
+                        "synopses": {
+                            "short": "The biggest Asian anthems and party tunes from AJD!",
+                            "medium": "The biggest Asian anthems and party tunes from AJD!",
+                            "long": null
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 25000000,
+                                "label": "25 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 33000000,
+                                "label": "33 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 81000000,
+                                "label": "81 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2026-07-28T23:30:00Z",
+                        "to": "2026-09-04T00:00:00Z",
+                        "label": "Available for 26 days"
+                    },
+                    "release": {
+                        "date": "2026-07-29T00:00:00Z",
+                        "label": "29 Jul 2026"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=m0002j3z&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "p0p0pdq2",
+                    "urn": "urn:bbc:radio:episode:p0p0pdv8",
+                    "network": {
+                        "id": "bbc_sounds_mixes",
+                        "key": "sounds",
+                        "short_title": "Mixes",
+                        "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_sounds_mixes/{type}_{size}.{format}",
+                        "network_type": "master_brand"
+                    },
+                    "titles": {
+                        "primary": "Pace Setter",
+                        "secondary": "P.A.R.T.WHY? Because I Gotta!",
+                        "tertiary": null,
+                        "entity_title": "P.A.R.T.WHY? Because I Gotta!"
+                    },
+                    "synopses": {
+                        "short": "Keep those knees up on your run, while listening to music for a right old knees up!",
+                        "medium": "Party music that's been hand picked and mixed to soundtrack your run. Hit your PBs with help from The Rolling Stones, Madonna, Kylie, Jamiroquai (that's just the first 4 songs)",
+                        "long": "2 hours of tempo matched party anthems seamlessly mixed to keep your pace up on a run! Music from Feeder, Beyoncé, Maroon 5, Madonna, Calvin Harris, Kylie, Nelly, The Rolling Stones, Outkast, Daft Punk, Bob Marley and many more!\n\nA We Are Grape production for BBC Sounds"
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0bzbt92.jpg",
+                    "duration": {
+                        "value": 7199,
+                        "label": "119 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "brand",
+                        "id": "p06n9m6v",
+                        "urn": "urn:bbc:radio:brand:p06n9m6v",
+                        "title": "Pace Setter",
+                        "synopses": {
+                            "short": "Hours of music mixes handpicked to get you up and running!",
+                            "medium": "Hours of music of all different genres, handpicked to get you up and running!",
+                            "long": "Hours of music of all different genres, handpicked to get you up and running! Hit subscribe to make sure you get new episodes as soon as they land."
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 97000000,
+                                "label": "97 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 128000000,
+                                "label": "128 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 318000000,
+                                "label": "318 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2026-07-28T07:00:00Z",
+                        "to": "2026-08-27T07:00:00Z",
+                        "label": "Available for 18 days"
+                    },
+                    "release": {
+                        "date": "2026-07-28T00:00:00Z",
+                        "label": "28 Jul 2026"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=p06n9m6v&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "m002zttp",
+                    "urn": "urn:bbc:radio:episode:m002zttq",
+                    "network": {
+                        "id": "bbc_radio_six_indie_forever",
+                        "key": "radio6indieforever",
+                        "short_title": "Radio 6 Indie Forever",
+                        "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_radio_six_indie_forever/{type}_{size}.{format}",
+                        "network_type": "master_brand"
+                    },
+                    "titles": {
+                        "primary": "Indie Cloudbusters",
+                        "secondary": "Indie Cloudbusters with Nick Grimshaw!",
+                        "tertiary": null,
+                        "entity_title": "Indie Cloudbusters with Nick Grimshaw!"
+                    },
+                    "synopses": {
+                        "short": "Indie bangers to replace the grey skies with sunshiiiine.",
+                        "medium": "We have two hours of back-to-back indie to get the wheels in motion and launch you into whatever day is ahead of you or behind you!",
+                        "long": "Indie bangers to replace the grey skies with sunshiiiine.\n\nWe have two hours of back-to-back indie to get the wheels in motion and launch you into whatever day is ahead of you or behind you! \n\nProduced in Cardiff by Bengo Media for BBC Radio 6 Music Indie Forever."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0nyxbzk.jpg",
+                    "duration": {
+                        "value": 7200,
+                        "label": "120 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "brand",
+                        "id": "m002zttd",
+                        "urn": "urn:bbc:radio:brand:m002zttd",
+                        "title": "Indie Cloudbusters",
+                        "synopses": {
+                            "short": "Indie bangers to replace the grey skies with sunshiiiine.",
+                            "medium": "Indie bangers to replace the grey skies with sunshiiiine.",
+                            "long": null
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 97000000,
+                                "label": "97 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 128000000,
+                                "label": "128 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 318000000,
+                                "label": "318 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2026-07-28T09:00:00Z",
+                        "to": "2026-09-25T19:00:00Z",
+                        "label": "Available for 47 days"
+                    },
+                    "release": {
+                        "date": "2026-07-28T00:00:00Z",
+                        "label": "28 Jul 2026"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=m002zttd&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "m002z7zz",
+                    "urn": "urn:bbc:radio:episode:m002z800",
+                    "network": {
+                        "id": "bbc_asian_network",
+                        "key": "asiannetwork",
+                        "short_title": "Asian Network",
+                        "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_asian_network/{type}_{size}.{format}",
+                        "network_type": "master_brand"
+                    },
+                    "titles": {
+                        "primary": "Asian Network Certified",
+                        "secondary": "with Nikita Kanda",
+                        "tertiary": null,
+                        "entity_title": "with Nikita Kanda"
+                    },
+                    "synopses": {
+                        "short": "Your daily mix of Bollywood, Bhangra, UK garage, R&B, hip-hop and more with Nikita Kanda.",
+                        "medium": "Your daily mix of Bollywood, Bhangra, UK garage, R&B, hip-hop and more with Nikita Kanda.",
+                        "long": "Your daily mix of Bollywood, Bhangra, UK garage, R&B, hip-hop and more with Nikita Kanda.\n\nProduced in Birmingham by BBC Audio for BBC Asian Network."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0nqc0hl.jpg",
+                    "duration": {
+                        "value": 3600,
+                        "label": "60 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "brand",
+                        "id": "m000h9dz",
+                        "urn": "urn:bbc:radio:brand:m000h9dz",
+                        "title": "Asian Network Certified",
+                        "synopses": {
+                            "short": "Your daily mix of Bollywood, Bhangra, R&B and hip-hop. Plus info on our live music event.",
+                            "medium": "Your daily mix of Bollywood, Bhangra, UK garage, R&B, hip-hop and more. Find out how you can join us at Asian Network Certified in Birmingham: https://bbc.in/certified",
+                            "long": null
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 49000000,
+                                "label": "49 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 65000000,
+                                "label": "65 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 160000000,
+                                "label": "160 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2026-07-28T10:00:00Z",
+                        "to": "2026-08-27T10:00:00Z",
+                        "label": "Available for 18 days"
+                    },
+                    "release": {
+                        "date": "2026-07-28T00:00:00Z",
+                        "label": "28 Jul 2026"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=m000h9dz&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "m002z6h0",
+                    "urn": "urn:bbc:radio:episode:m002z6h1",
+                    "network": {
+                        "id": "bbc_asian_network",
+                        "key": "asiannetwork",
+                        "short_title": "Asian Network",
+                        "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_asian_network/{type}_{size}.{format}",
+                        "network_type": "master_brand"
+                    },
+                    "titles": {
+                        "primary": "Asian Network Punjabi",
+                        "secondary": "Bhangra Bounce",
+                        "tertiary": "Summer Bhangra Party",
+                        "entity_title": "Summer Bhangra Party"
+                    },
+                    "synopses": {
+                        "short": "Dipps presses play on the Summer Bhangra Party edition of the Bhangra Bounce Mix.",
+                        "medium": "Dipps presses play on the Summer Bhangra Party edition of the Bhangra Bounce Mix. You'll hear the sounds of Soni Pabla, Guru Randhawa, Tegi Pannu and Panjabi MC.",
+                        "long": "Dipps presses play on the Summer Bhangra Party edition of the Bhangra Bounce Mix, soundtracking BBQs, road trips, festivals and long summer evenings with 30 minutes of feel-good summer anthems. You'll hear the sounds of Soni Pabla, Guru Randhawa, Tegi Pannu and Panjabi MC, all mixed and mashed up in Dipps's signature style. \n\nYou can catch more mixes anytime on the BBC Sounds app, just stream or download and take the vibes with you wherever you go. \n\nProduced in Birmingham by Glenvale Media for BBC Asian Network."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0m6226k.jpg",
+                    "duration": {
+                        "value": 1800,
+                        "label": "30 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "brand",
+                        "id": "p0h6w1wq",
+                        "urn": "urn:bbc:radio:brand:p0h6w1wq",
+                        "title": "Asian Network Punjabi",
+                        "synopses": {
+                            "short": "The best in Bhangra and Punjabi music from the BBC's Asian Network.",
+                            "medium": "The best in Bhangra and Punjabi music from the BBC's Asian Network.",
+                            "long": null
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 25000000,
+                                "label": "25 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 33000000,
+                                "label": "33 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 81000000,
+                                "label": "81 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2026-07-26T23:30:00Z",
+                        "to": "2026-09-02T00:00:00Z",
+                        "label": "Available for 24 days"
+                    },
+                    "release": {
+                        "date": "2026-07-27T00:00:00Z",
+                        "label": "27 Jul 2026"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=m001y4wn&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "m002z4qy",
+                    "urn": "urn:bbc:radio:episode:m002z4qz",
+                    "network": {
+                        "id": "bbc_radio_one",
+                        "key": "radio1",
+                        "short_title": "Radio 1",
+                        "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_radio_one/{type}_{size}.{format}",
+                        "network_type": "master_brand"
+                    },
+                    "titles": {
+                        "primary": "Radio 1 Anthems",
+                        "secondary": "with Nat and Vicky",
+                        "tertiary": null,
+                        "entity_title": "with Nat and Vicky"
+                    },
+                    "synopses": {
+                        "short": "Nat O'Leary and Vicky Hawkesworth with big anthems and tunes you haven't heard in ages.",
+                        "medium": null,
+                        "long": "Nat O'Leary and Vicky Hawkesworth with big anthems and tunes you haven't heard in ages.\n\nProduced in Salford by BBC Audio for BBC Radio 1."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0m3b76r.jpg",
+                    "duration": {
+                        "value": 1680,
+                        "label": "28 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "brand",
+                        "id": "b094db4n",
+                        "urn": "urn:bbc:radio:brand:b094db4n",
+                        "title": "Radio 1 Anthems",
+                        "synopses": {
+                            "short": "Massive hits you haven't heard in ages from the 00s to now...",
+                            "medium": "Massive hits you haven't heard in ages from the 00s to now...",
+                            "long": null
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 24000000,
+                                "label": "24 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 31000000,
+                                "label": "31 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 75000000,
+                                "label": "75 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2026-07-25T10:00:00Z",
+                        "to": "2026-08-24T10:00:00Z",
+                        "label": "Available for 15 days"
+                    },
+                    "release": {
+                        "date": "2026-07-25T00:00:00Z",
+                        "label": "25 Jul 2026"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=b094db4n&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "m002yxnv",
+                    "urn": "urn:bbc:radio:episode:m002yxnw",
+                    "network": {
+                        "id": "bbc_radio_one",
+                        "key": "radio1",
+                        "short_title": "Radio 1",
+                        "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_radio_one/{type}_{size}.{format}",
+                        "network_type": "master_brand"
+                    },
+                    "titles": {
+                        "primary": "Radio 1's Happy Anthems",
+                        "secondary": "Calvin Harris, Jennifer Lopez and Chase & Status",
+                        "tertiary": null,
+                        "entity_title": "Calvin Harris, Jennifer Lopez and Chase & Status"
+                    },
+                    "synopses": {
+                        "short": "Maia Beth’s spinning nothing but feelgood vibes and absolute tunes!",
+                        "medium": null,
+                        "long": "Maia Beth’s spinning nothing but feelgood vibes and absolute tunes!\nBelters from Daft Punk, Naughty Boy, Pharell, Sam Smith, Tiësto and loads more! \n\nProduced by BBC Audio for BBC Radio 1."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0m1pwm9.jpg",
+                    "duration": {
+                        "value": 3600,
+                        "label": "60 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "brand",
+                        "id": "p06mtsjm",
+                        "urn": "urn:bbc:radio:brand:p06mtsjm",
+                        "title": "Radio 1's Happy Anthems",
+                        "synopses": {
+                            "short": "Nothing but feel-good hits to put a smile on your face.",
+                            "medium": "Nothing but feel-good hits to put a smile on your face.",
+                            "long": null
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 49000000,
+                                "label": "49 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 65000000,
+                                "label": "65 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 160000000,
+                                "label": "160 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2026-07-25T05:00:00Z",
+                        "to": "2026-09-22T13:00:00Z",
+                        "label": "Available for 44 days"
+                    },
+                    "release": {
+                        "date": "2026-07-25T00:00:00Z",
+                        "label": "25 Jul 2026"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=p06mtsjm&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "m002z87b",
+                    "urn": "urn:bbc:radio:episode:m002z87c",
+                    "network": {
+                        "id": "bbc_radio_two",
+                        "key": "radio2",
+                        "short_title": "Radio 2",
+                        "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_radio_two/{type}_{size}.{format}",
+                        "network_type": "master_brand"
+                    },
+                    "titles": {
+                        "primary": "Michelle Visage",
+                        "secondary": "Michelle Visage's Handbag Hits",
+                        "tertiary": "Michelle's Mood is... SCHOOL'S OUT! Hits from Prince, Black Eyed Peas, Ariana Grande and more",
+                        "entity_title": "Michelle's Mood is... SCHOOL'S OUT! Hits from Prince, Black Eyed Peas, Ariana Grande and more"
+                    },
+                    "synopses": {
+                        "short": "Michelle's Mood is... SCHOOL'S OUT! Your weekly 30 minutes of nonstop bops is right here!",
+                        "medium": "Michelle's Mood is... SCHOOL'S OUT! Your weekly 30 minutes of nonstop bops is right here!",
+                        "long": "Michelle's Mood is... SCHOOL'S OUT! Your weekly 30 minutes of nonstop bops is right here!  Remember: wherever you lay your schoolbag THAT is your dance floor. AND give the performance of your life for the Lip-Sync Anthem at the end.\n\nTo listen on most smart speakers, just say “ask BBC Sounds to play Michelle Visage\".\n\nA Mostest production for BBC Radio 2."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0m33j2c.jpg",
+                    "duration": {
+                        "value": 1800,
+                        "label": "30 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "brand",
+                        "id": "m001955m",
+                        "urn": "urn:bbc:radio:brand:m001955m",
+                        "title": "Michelle Visage",
+                        "synopses": {
+                            "short": "A handpicked playlist of Michelle's favourite disco, dance, pop and R'n'B bangers!",
+                            "medium": "Michelle is bringing the party to you with a handpicked playlist of her favourite disco, dance, pop and R'n'B bangers.",
+                            "long": "There's a new party across the UK and everyone is invited! There's no queue to get in, no dress code, no need to even leave your front door: wherever you are and whatever you are doing, Michelle is bringing the party to you with a handpicked playlist of her favourite disco, dance, pop and R'n'B bangers. Lip-synch into your hairbrush and apply glitter, your Friday night is all set to be FAB-U-LOUS!"
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 25000000,
+                                "label": "25 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 33000000,
+                                "label": "33 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 81000000,
+                                "label": "81 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2026-07-24T20:00:00Z",
+                        "to": "2026-08-23T20:00:00Z",
+                        "label": "Available for 14 days"
+                    },
+                    "release": {
+                        "date": "2026-07-24T00:00:00Z",
+                        "label": "24 Jul 2026"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=m001hqls&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "m002yy9h",
+                    "urn": "urn:bbc:radio:episode:m002yy9j",
+                    "network": {
+                        "id": "bbc_radio_one_anthems",
+                        "key": "radio1anthems",
+                        "short_title": "Radio 1 Anthems",
+                        "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_radio_one_anthems/{type}_{size}.{format}",
+                        "network_type": "master_brand"
+                    },
+                    "titles": {
+                        "primary": "Radio 1's Workout Anthems",
+                        "secondary": "Fatboy Slim, Peggy Gou, Chase & Status and more",
+                        "tertiary": null,
+                        "entity_title": "Fatboy Slim, Peggy Gou, Chase & Status and more"
+                    },
+                    "synopses": {
+                        "short": "Motivational tunes to get you moving!",
+                        "medium": null,
+                        "long": "Motivational tunes to get you moving!\n\nProduced in Salford by BBC Audio for BBC Radio 1."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0m1px0y.jpg",
+                    "duration": {
+                        "value": 3600,
+                        "label": "60 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "brand",
+                        "id": "p04m6tcs",
+                        "urn": "urn:bbc:radio:brand:p04m6tcs",
+                        "title": "Radio 1's Workout Anthems",
+                        "synopses": {
+                            "short": "Motivational tunes to get you moving!",
+                            "medium": "Motivational tunes to get you moving!",
+                            "long": null
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 49000000,
+                                "label": "49 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 65000000,
+                                "label": "65 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 160000000,
+                                "label": "160 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2026-07-24T04:00:00Z",
+                        "to": "2026-09-26T19:00:00Z",
+                        "label": "Available for 48 days"
+                    },
+                    "release": {
+                        "date": "2026-07-24T00:00:00Z",
+                        "label": "24 Jul 2026"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=p04m6tcs&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "p0p11vdp",
+                    "urn": "urn:bbc:radio:episode:m002yxr7",
+                    "network": {
+                        "id": "bbc_radio_two",
+                        "key": "radio2",
+                        "short_title": "Radio 2",
+                        "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_radio_two/{type}_{size}.{format}",
+                        "network_type": "master_brand"
+                    },
+                    "titles": {
+                        "primary": "Sophie Ellis-Bextor's Kitchen Disco",
+                        "secondary": "School's Out!",
+                        "tertiary": null,
+                        "entity_title": "School's Out!"
+                    },
+                    "synopses": {
+                        "short": "Sophie's back on the decks for two hours of feel good Kitchen Disco!",
+                        "medium": "Sophie's back with more feel good anthems and this week she's dedicating her Disco Wonderland to a school-free summer!",
+                        "long": "Sophie's back with more feel good anthems and this week she's dedicating her Disco Wonderland to a school-free summer! Expect the likes of Madness, Mika, Oasis, Beyonce and many many more.\n\nThe disco happens Friday nights from 9pm on Radio 2 - subscribe to BBC Sounds to never miss an episode. Also, you can say to most smart speakers: 'ask BBC Sounds to play Kitchen Disco'.\n\nProduced by Listen Entertainment for BBC Radio 2."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0cjtv08.jpg",
+                    "duration": {
+                        "value": 6788,
+                        "label": "113 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "brand",
+                        "id": "m000tsg9",
+                        "urn": "urn:bbc:radio:brand:m000tsg9",
+                        "title": "Sophie Ellis-Bextor's Kitchen Disco",
+                        "synopses": {
+                            "short": "Sophie Ellis-Bextor's weekly Kitchen Disco, nothing but non-stop feel-good tunes!",
+                            "medium": "Sophie Ellis-Bextor's weekly Kitchen Disco, nothing but non-stop feel-good tunes!",
+                            "long": null
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 91000000,
+                                "label": "91 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 121000000,
+                                "label": "121 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 300000000,
+                                "label": "300 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2026-07-24T21:00:00Z",
+                        "to": "2027-07-24T21:00:00Z",
+                        "label": "Available for 350 days"
+                    },
+                    "release": {
+                        "date": "2026-07-24T00:00:00Z",
+                        "label": "24 Jul 2026"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=m000tsg9&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "m002yxn2",
+                    "urn": "urn:bbc:radio:episode:m002yxn3",
+                    "network": {
+                        "id": "bbc_radio_one",
+                        "key": "radio1",
+                        "short_title": "Radio 1",
+                        "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_radio_one/{type}_{size}.{format}",
+                        "network_type": "master_brand"
+                    },
+                    "titles": {
+                        "primary": "Radio 1 Anthems",
+                        "secondary": "with Nat and Vicky",
+                        "tertiary": null,
+                        "entity_title": "with Nat and Vicky"
+                    },
+                    "synopses": {
+                        "short": "Nat O'Leary and Vicky Hawkesworth with big anthems and tunes you haven't heard in ages.",
+                        "medium": null,
+                        "long": "Nat O'Leary and Vicky Hawkesworth with big anthems and tunes you haven't heard in ages.\n\nProduced in Salford by BBC Audio for BBC Radio 1."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0m3b76r.jpg",
+                    "duration": {
+                        "value": 3600,
+                        "label": "60 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "brand",
+                        "id": "b094db4n",
+                        "urn": "urn:bbc:radio:brand:b094db4n",
+                        "title": "Radio 1 Anthems",
+                        "synopses": {
+                            "short": "Massive hits you haven't heard in ages from the 00s to now...",
+                            "medium": "Massive hits you haven't heard in ages from the 00s to now...",
+                            "long": null
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 49000000,
+                                "label": "49 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 65000000,
+                                "label": "65 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 160000000,
+                                "label": "160 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2026-07-24T10:00:00Z",
+                        "to": "2026-08-23T10:00:00Z",
+                        "label": "Available for 14 days"
+                    },
+                    "release": {
+                        "date": "2026-07-24T00:00:00Z",
+                        "label": "24 Jul 2026"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=b094db4n&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "m002ywv2",
+                    "urn": "urn:bbc:radio:episode:m002ywv3",
+                    "network": {
+                        "id": "bbc_asian_network",
+                        "key": "asiannetwork",
+                        "short_title": "Asian Network",
+                        "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_asian_network/{type}_{size}.{format}",
+                        "network_type": "master_brand"
+                    },
+                    "titles": {
+                        "primary": "Asian Network's Love Friday Mix",
+                        "secondary": "MR.O presses play on the bangers!",
+                        "tertiary": null,
+                        "entity_title": "MR.O presses play on the bangers!"
+                    },
+                    "synopses": {
+                        "short": "MR.O jumps on the decks for this week's Love Friday Mix!",
+                        "medium": "MR.O jumps on the decks for this week's Love Friday Mix! Featuring all your favourite Bollywood, Bhangra, hip hop and R&B bangers to get you grooving.",
+                        "long": "MR.O jumps on the decks for this week's Love Friday Mix! Featuring all your favourite Bollywood, Bhangra, hip hop and R&B bangers to get you grooving. Expect to hear tracks from the likes of Diljit Dosanjh, Shreya Ghoshal, Indo Warehouse, Kanika Kapoor and a sneaky bit of Peter Andre!\n\nYou can download all the Love Friday mixes and take them with you on BBC Sounds. Soundtrack your summer with the Love Friday Mix!\n\nProduced in Birmingham by BBC Audio for BBC Asian Network."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0m3sdkh.jpg",
+                    "duration": {
+                        "value": 1800,
+                        "label": "30 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "brand",
+                        "id": "m00021q1",
+                        "urn": "urn:bbc:radio:brand:m00021q1",
+                        "title": "Asian Network's Love Friday Mix",
+                        "synopses": {
+                            "short": "Exclusive mixes - and not just for Friday! Featuring some of the best South Asian DJs!",
+                            "medium": "Exclusive mixes - and not just for Friday! Featuring some of the best South Asian DJs!!",
+                            "long": null
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 25000000,
+                                "label": "25 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 33000000,
+                                "label": "33 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 81000000,
+                                "label": "81 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2026-07-23T23:30:00Z",
+                        "to": "2026-08-30T00:00:00Z",
+                        "label": "Available for 21 days"
+                    },
+                    "release": {
+                        "date": "2026-07-24T00:00:00Z",
+                        "label": "24 Jul 2026"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=m00021q1&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                },
+                {
+                    "type": "playable_item",
+                    "id": "m002ywlq",
+                    "urn": "urn:bbc:radio:episode:m002ywls",
+                    "network": {
+                        "id": "bbc_asian_network",
+                        "key": "asiannetwork",
+                        "short_title": "Asian Network",
+                        "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_asian_network/{type}_{size}.{format}",
+                        "network_type": "master_brand"
+                    },
+                    "titles": {
+                        "primary": "All Star Anthems",
+                        "secondary": "H-Dhami, Sub Focus and Jonita Gandhi",
+                        "tertiary": null,
+                        "entity_title": "H-Dhami, Sub Focus and Jonita Gandhi"
+                    },
+                    "synopses": {
+                        "short": "AJD brings the feeling of 'I know this one!' with H-Dhami, Sub Focus and Jonita Gandhi.",
+                        "medium": "AJD brings that feeling of 'yeah, I know this one' and mixes through Sub Focus, Kid Ink and Usher alongside H-Dhami, Jonita Gandhi and Guru Randhawa.",
+                        "long": "AJD brings 30 minutes of proper high-energy tunes you can just switch on and enjoy. Big songs, familiar moments and that feeling of 'yeah, I know this one' from start to finish. Kicking off with Diljit Dosanjh, AJD mixes through Sub Focus, Kid Ink and Usher alongside H-Dhami, Jonita Gandhi and Guru Randhawa, before closing with an Imran Khan anthem and a throwback from Kuch Kuch Locha Hai.\n\nProduced by Glenvale Media for BBC Asian Network."
+                    },
+                    "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0m628kx.jpg",
+                    "duration": {
+                        "value": 1800,
+                        "label": "30 mins"
+                    },
+                    "progress": null,
+                    "container": {
+                        "type": "brand",
+                        "id": "m0002j3z",
+                        "urn": "urn:bbc:radio:brand:m0002j3z",
+                        "title": "All Star Anthems",
+                        "synopses": {
+                            "short": "The biggest Asian anthems and party tunes from AJD!",
+                            "medium": "The biggest Asian anthems and party tunes from AJD!",
+                            "long": null
+                        },
+                        "activities": []
+                    },
+                    "download": {
+                        "type": "drm",
+                        "quality_variants": {
+                            "low": {
+                                "bitrate": 96,
+                                "file_url": null,
+                                "file_size": 25000000,
+                                "label": "25 MB"
+                            },
+                            "medium": {
+                                "bitrate": 128,
+                                "file_url": null,
+                                "file_size": 33000000,
+                                "label": "33 MB"
+                            },
+                            "high": {
+                                "bitrate": 320,
+                                "file_url": null,
+                                "file_size": 81000000,
+                                "label": "81 MB"
+                            }
+                        }
+                    },
+                    "availability": {
+                        "from": "2026-07-21T23:30:00Z",
+                        "to": "2026-08-28T00:00:00Z",
+                        "label": "Available for 19 days"
+                    },
+                    "release": {
+                        "date": "2026-07-22T00:00:00Z",
+                        "label": "22 Jul 2026"
+                    },
+                    "guidance": {
+                        "competition_warning": false,
+                        "warnings": null
+                    },
+                    "activities": [],
+                    "uris": [
+                        {
+                            "type": "latest",
+                            "id": null,
+                            "label": "Latest",
+                            "uri": "/v2/programmes/playable?container=m0002j3z&sort=sequential&type=episode&experience=domestic"
+                        }
+                    ],
+                    "play_context": null,
+                    "recommendation": null
+                }
+            ],
+            "image_url": null
+        }
+    ]
+}

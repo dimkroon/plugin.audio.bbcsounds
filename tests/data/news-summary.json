@@ -1,0 +1,2868 @@
+{
+    "$schema": "https://rms.api.bbc.co.uk/docs/swagger.json#/definitions/PlayableItems",
+    "total": 33,
+    "limit": 1000,
+    "offset": 0,
+    "data": [
+        {
+            "type": "playable_item",
+            "id": "w1msm0w01hm9cd3",
+            "urn": "urn:bbc:radio:episode:w1730nll8c9bbzh",
+            "network": {
+                "id": "bbc_world_service",
+                "key": "worldserviceradio",
+                "short_title": "World Service",
+                "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_world_service/{type}_{size}.{format}",
+                "network_type": "master_brand"
+            },
+            "titles": {
+                "primary": "BBC News Summary",
+                "secondary": "13/08/2026 10:30 GMT",
+                "tertiary": null,
+                "entity_title": "13/08/2026 10:30 GMT"
+            },
+            "synopses": {
+                "short": "The latest two minute news summary from BBC World Service.",
+                "medium": "The latest two minute news summary from BBC World Service.",
+                "long": null
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p060dh18.jpg",
+            "duration": {
+                "value": 120,
+                "label": "2 mins"
+            },
+            "progress": null,
+            "container": {
+                "type": "brand",
+                "id": "p002vsn1",
+                "urn": "urn:bbc:radio:brand:p002vsn1",
+                "title": "BBC News Summary",
+                "synopses": {
+                    "short": "The latest two minute news summary from BBC World Service",
+                    "medium": "The latest two minute news summary from BBC World Service.",
+                    "long": null
+                },
+                "activities": []
+            },
+            "download": {
+                "type": "non_drm",
+                "quality_variants": {
+                    "low": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm9cd3.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "medium": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm9cd3.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "high": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm9cd3.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    }
+                }
+            },
+            "availability": {
+                "from": "2026-08-13T10:32:30Z",
+                "to": "2026-08-15T10:32:30Z",
+                "label": "Expires on Saturday 11:32am"
+            },
+            "release": {
+                "date": "2026-08-13T00:00:00Z",
+                "label": "13 Aug 2026"
+            },
+            "guidance": {
+                "competition_warning": false,
+                "warnings": null
+            },
+            "activities": [],
+            "uris": [
+                {
+                    "type": "latest",
+                    "id": null,
+                    "label": "Latest",
+                    "uri": "/v2/my/programmes/playable?container=p002vsn1&sort=sequential&type=episode&experience=domestic"
+                }
+            ],
+            "play_context": null,
+            "recommendation": null
+        },
+        {
+            "type": "playable_item",
+            "id": "w1msm0w01hm97mz",
+            "urn": "urn:bbc:radio:episode:w1730nll8c9b77c",
+            "network": {
+                "id": "bbc_world_service",
+                "key": "worldserviceradio",
+                "short_title": "World Service",
+                "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_world_service/{type}_{size}.{format}",
+                "network_type": "master_brand"
+            },
+            "titles": {
+                "primary": "BBC News Summary",
+                "secondary": "13/08/2026 09:30 GMT",
+                "tertiary": null,
+                "entity_title": "13/08/2026 09:30 GMT"
+            },
+            "synopses": {
+                "short": "The latest two minute news summary from BBC World Service.",
+                "medium": "The latest two minute news summary from BBC World Service.",
+                "long": null
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p060dh18.jpg",
+            "duration": {
+                "value": 120,
+                "label": "2 mins"
+            },
+            "progress": null,
+            "container": {
+                "type": "brand",
+                "id": "p002vsn1",
+                "urn": "urn:bbc:radio:brand:p002vsn1",
+                "title": "BBC News Summary",
+                "synopses": {
+                    "short": "The latest two minute news summary from BBC World Service",
+                    "medium": "The latest two minute news summary from BBC World Service.",
+                    "long": null
+                },
+                "activities": []
+            },
+            "download": {
+                "type": "non_drm",
+                "quality_variants": {
+                    "low": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm97mz.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "medium": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm97mz.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "high": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm97mz.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    }
+                }
+            },
+            "availability": {
+                "from": "2026-08-13T09:32:30Z",
+                "to": "2026-08-15T09:32:30Z",
+                "label": "Expires on Saturday 10:32am"
+            },
+            "release": {
+                "date": "2026-08-13T00:00:00Z",
+                "label": "13 Aug 2026"
+            },
+            "guidance": {
+                "competition_warning": false,
+                "warnings": null
+            },
+            "activities": [],
+            "uris": [
+                {
+                    "type": "latest",
+                    "id": null,
+                    "label": "Latest",
+                    "uri": "/v2/my/programmes/playable?container=p002vsn1&sort=sequential&type=episode&experience=domestic"
+                }
+            ],
+            "play_context": null,
+            "recommendation": null
+        },
+        {
+            "type": "playable_item",
+            "id": "w1msm0w01hm93wv",
+            "urn": "urn:bbc:radio:episode:w1730nll8c9b3h7",
+            "network": {
+                "id": "bbc_world_service",
+                "key": "worldserviceradio",
+                "short_title": "World Service",
+                "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_world_service/{type}_{size}.{format}",
+                "network_type": "master_brand"
+            },
+            "titles": {
+                "primary": "BBC News Summary",
+                "secondary": "13/08/2026 08:30 GMT",
+                "tertiary": null,
+                "entity_title": "13/08/2026 08:30 GMT"
+            },
+            "synopses": {
+                "short": "The latest two minute news summary from BBC World Service.",
+                "medium": "The latest two minute news summary from BBC World Service.",
+                "long": null
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p060dh18.jpg",
+            "duration": {
+                "value": 120,
+                "label": "2 mins"
+            },
+            "progress": null,
+            "container": {
+                "type": "brand",
+                "id": "p002vsn1",
+                "urn": "urn:bbc:radio:brand:p002vsn1",
+                "title": "BBC News Summary",
+                "synopses": {
+                    "short": "The latest two minute news summary from BBC World Service",
+                    "medium": "The latest two minute news summary from BBC World Service.",
+                    "long": null
+                },
+                "activities": []
+            },
+            "download": {
+                "type": "non_drm",
+                "quality_variants": {
+                    "low": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm93wv.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "medium": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm93wv.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "high": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm93wv.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    }
+                }
+            },
+            "availability": {
+                "from": "2026-08-13T08:32:30Z",
+                "to": "2026-08-15T08:32:30Z",
+                "label": "Expires on Saturday 9:32am"
+            },
+            "release": {
+                "date": "2026-08-13T00:00:00Z",
+                "label": "13 Aug 2026"
+            },
+            "guidance": {
+                "competition_warning": false,
+                "warnings": null
+            },
+            "activities": [],
+            "uris": [
+                {
+                    "type": "latest",
+                    "id": null,
+                    "label": "Latest",
+                    "uri": "/v2/my/programmes/playable?container=p002vsn1&sort=sequential&type=episode&experience=domestic"
+                }
+            ],
+            "play_context": null,
+            "recommendation": null
+        },
+        {
+            "type": "playable_item",
+            "id": "w1msm0w01hm904q",
+            "urn": "urn:bbc:radio:episode:w1730nll8c99zr3",
+            "network": {
+                "id": "bbc_world_service",
+                "key": "worldserviceradio",
+                "short_title": "World Service",
+                "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_world_service/{type}_{size}.{format}",
+                "network_type": "master_brand"
+            },
+            "titles": {
+                "primary": "BBC News Summary",
+                "secondary": "13/08/2026 07:30 GMT",
+                "tertiary": null,
+                "entity_title": "13/08/2026 07:30 GMT"
+            },
+            "synopses": {
+                "short": "The latest two minute news summary from BBC World Service.",
+                "medium": "The latest two minute news summary from BBC World Service.",
+                "long": null
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p060dh18.jpg",
+            "duration": {
+                "value": 120,
+                "label": "2 mins"
+            },
+            "progress": null,
+            "container": {
+                "type": "brand",
+                "id": "p002vsn1",
+                "urn": "urn:bbc:radio:brand:p002vsn1",
+                "title": "BBC News Summary",
+                "synopses": {
+                    "short": "The latest two minute news summary from BBC World Service",
+                    "medium": "The latest two minute news summary from BBC World Service.",
+                    "long": null
+                },
+                "activities": []
+            },
+            "download": {
+                "type": "non_drm",
+                "quality_variants": {
+                    "low": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm904q.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "medium": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm904q.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "high": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm904q.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    }
+                }
+            },
+            "availability": {
+                "from": "2026-08-13T07:32:30Z",
+                "to": "2026-08-15T07:32:30Z",
+                "label": "Expires on Saturday 8:32am"
+            },
+            "release": {
+                "date": "2026-08-13T00:00:00Z",
+                "label": "13 Aug 2026"
+            },
+            "guidance": {
+                "competition_warning": false,
+                "warnings": null
+            },
+            "activities": [],
+            "uris": [
+                {
+                    "type": "latest",
+                    "id": null,
+                    "label": "Latest",
+                    "uri": "/v2/my/programmes/playable?container=p002vsn1&sort=sequential&type=episode&experience=domestic"
+                }
+            ],
+            "play_context": null,
+            "recommendation": null
+        },
+        {
+            "type": "playable_item",
+            "id": "w1msm0w01hm8mxb",
+            "urn": "urn:bbc:radio:episode:w1730nll8c99mhq",
+            "network": {
+                "id": "bbc_world_service",
+                "key": "worldserviceradio",
+                "short_title": "World Service",
+                "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_world_service/{type}_{size}.{format}",
+                "network_type": "master_brand"
+            },
+            "titles": {
+                "primary": "BBC News Summary",
+                "secondary": "13/08/2026 04:30 GMT",
+                "tertiary": null,
+                "entity_title": "13/08/2026 04:30 GMT"
+            },
+            "synopses": {
+                "short": "The latest two minute news summary from BBC World Service.",
+                "medium": "The latest two minute news summary from BBC World Service.",
+                "long": null
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p060dh18.jpg",
+            "duration": {
+                "value": 120,
+                "label": "2 mins"
+            },
+            "progress": null,
+            "container": {
+                "type": "brand",
+                "id": "p002vsn1",
+                "urn": "urn:bbc:radio:brand:p002vsn1",
+                "title": "BBC News Summary",
+                "synopses": {
+                    "short": "The latest two minute news summary from BBC World Service",
+                    "medium": "The latest two minute news summary from BBC World Service.",
+                    "long": null
+                },
+                "activities": []
+            },
+            "download": {
+                "type": "non_drm",
+                "quality_variants": {
+                    "low": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm8mxb.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "medium": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm8mxb.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "high": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm8mxb.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    }
+                }
+            },
+            "availability": {
+                "from": "2026-08-13T04:32:30Z",
+                "to": "2026-08-15T04:32:30Z",
+                "label": "Expires on Saturday 5:32am"
+            },
+            "release": {
+                "date": "2026-08-13T00:00:00Z",
+                "label": "13 Aug 2026"
+            },
+            "guidance": {
+                "competition_warning": false,
+                "warnings": null
+            },
+            "activities": [],
+            "uris": [
+                {
+                    "type": "latest",
+                    "id": null,
+                    "label": "Latest",
+                    "uri": "/v2/my/programmes/playable?container=p002vsn1&sort=sequential&type=episode&experience=domestic"
+                }
+            ],
+            "play_context": null,
+            "recommendation": null
+        },
+        {
+            "type": "playable_item",
+            "id": "w1msm0w01hm8j56",
+            "urn": "urn:bbc:radio:episode:w1730nll8c99hrl",
+            "network": {
+                "id": "bbc_world_service",
+                "key": "worldserviceradio",
+                "short_title": "World Service",
+                "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_world_service/{type}_{size}.{format}",
+                "network_type": "master_brand"
+            },
+            "titles": {
+                "primary": "BBC News Summary",
+                "secondary": "13/08/2026 03:30 GMT",
+                "tertiary": null,
+                "entity_title": "13/08/2026 03:30 GMT"
+            },
+            "synopses": {
+                "short": "The latest two minute news summary from BBC World Service.",
+                "medium": "The latest two minute news summary from BBC World Service.",
+                "long": null
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p060dh18.jpg",
+            "duration": {
+                "value": 120,
+                "label": "2 mins"
+            },
+            "progress": null,
+            "container": {
+                "type": "brand",
+                "id": "p002vsn1",
+                "urn": "urn:bbc:radio:brand:p002vsn1",
+                "title": "BBC News Summary",
+                "synopses": {
+                    "short": "The latest two minute news summary from BBC World Service",
+                    "medium": "The latest two minute news summary from BBC World Service.",
+                    "long": null
+                },
+                "activities": []
+            },
+            "download": {
+                "type": "non_drm",
+                "quality_variants": {
+                    "low": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm8j56.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "medium": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm8j56.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "high": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm8j56.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    }
+                }
+            },
+            "availability": {
+                "from": "2026-08-13T03:32:30Z",
+                "to": "2026-08-15T03:32:30Z",
+                "label": "Expires on Saturday 4:32am"
+            },
+            "release": {
+                "date": "2026-08-13T00:00:00Z",
+                "label": "13 Aug 2026"
+            },
+            "guidance": {
+                "competition_warning": false,
+                "warnings": null
+            },
+            "activities": [],
+            "uris": [
+                {
+                    "type": "latest",
+                    "id": null,
+                    "label": "Latest",
+                    "uri": "/v2/my/programmes/playable?container=p002vsn1&sort=sequential&type=episode&experience=domestic"
+                }
+            ],
+            "play_context": null,
+            "recommendation": null
+        },
+        {
+            "type": "playable_item",
+            "id": "w1msm0w01hm88ny",
+            "urn": "urn:bbc:radio:episode:w1730nll8c9988b",
+            "network": {
+                "id": "bbc_world_service",
+                "key": "worldserviceradio",
+                "short_title": "World Service",
+                "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_world_service/{type}_{size}.{format}",
+                "network_type": "master_brand"
+            },
+            "titles": {
+                "primary": "BBC News Summary",
+                "secondary": "13/08/2026 01:30 GMT",
+                "tertiary": null,
+                "entity_title": "13/08/2026 01:30 GMT"
+            },
+            "synopses": {
+                "short": "The latest two minute news summary from BBC World Service.",
+                "medium": "The latest two minute news summary from BBC World Service.",
+                "long": null
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p060dh18.jpg",
+            "duration": {
+                "value": 120,
+                "label": "2 mins"
+            },
+            "progress": null,
+            "container": {
+                "type": "brand",
+                "id": "p002vsn1",
+                "urn": "urn:bbc:radio:brand:p002vsn1",
+                "title": "BBC News Summary",
+                "synopses": {
+                    "short": "The latest two minute news summary from BBC World Service",
+                    "medium": "The latest two minute news summary from BBC World Service.",
+                    "long": null
+                },
+                "activities": []
+            },
+            "download": {
+                "type": "non_drm",
+                "quality_variants": {
+                    "low": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm88ny.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "medium": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm88ny.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "high": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm88ny.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    }
+                }
+            },
+            "availability": {
+                "from": "2026-08-13T01:32:30Z",
+                "to": "2026-08-15T01:32:30Z",
+                "label": "Expires on Saturday 2:32am"
+            },
+            "release": {
+                "date": "2026-08-13T00:00:00Z",
+                "label": "13 Aug 2026"
+            },
+            "guidance": {
+                "competition_warning": false,
+                "warnings": null
+            },
+            "activities": [],
+            "uris": [
+                {
+                    "type": "latest",
+                    "id": null,
+                    "label": "Latest",
+                    "uri": "/v2/my/programmes/playable?container=p002vsn1&sort=sequential&type=episode&experience=domestic"
+                }
+            ],
+            "play_context": null,
+            "recommendation": null
+        },
+        {
+            "type": "playable_item",
+            "id": "w1msm0w01hm84xt",
+            "urn": "urn:bbc:radio:episode:w1730nll8c994j6",
+            "network": {
+                "id": "bbc_world_service",
+                "key": "worldserviceradio",
+                "short_title": "World Service",
+                "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_world_service/{type}_{size}.{format}",
+                "network_type": "master_brand"
+            },
+            "titles": {
+                "primary": "BBC News Summary",
+                "secondary": "13/08/2026 00:30 GMT",
+                "tertiary": null,
+                "entity_title": "13/08/2026 00:30 GMT"
+            },
+            "synopses": {
+                "short": "The latest two minute news summary from BBC World Service.",
+                "medium": "The latest two minute news summary from BBC World Service.",
+                "long": null
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p060dh18.jpg",
+            "duration": {
+                "value": 120,
+                "label": "2 mins"
+            },
+            "progress": null,
+            "container": {
+                "type": "brand",
+                "id": "p002vsn1",
+                "urn": "urn:bbc:radio:brand:p002vsn1",
+                "title": "BBC News Summary",
+                "synopses": {
+                    "short": "The latest two minute news summary from BBC World Service",
+                    "medium": "The latest two minute news summary from BBC World Service.",
+                    "long": null
+                },
+                "activities": []
+            },
+            "download": {
+                "type": "non_drm",
+                "quality_variants": {
+                    "low": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm84xt.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "medium": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm84xt.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "high": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm84xt.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    }
+                }
+            },
+            "availability": {
+                "from": "2026-08-13T00:32:30Z",
+                "to": "2026-08-15T00:32:30Z",
+                "label": "Expires on Saturday 1:32am"
+            },
+            "release": {
+                "date": "2026-08-13T00:00:00Z",
+                "label": "13 Aug 2026"
+            },
+            "guidance": {
+                "competition_warning": false,
+                "warnings": null
+            },
+            "activities": [],
+            "uris": [
+                {
+                    "type": "latest",
+                    "id": null,
+                    "label": "Latest",
+                    "uri": "/v2/my/programmes/playable?container=p002vsn1&sort=sequential&type=episode&experience=domestic"
+                }
+            ],
+            "play_context": null,
+            "recommendation": null
+        },
+        {
+            "type": "playable_item",
+            "id": "w1msm0w01hm7xfk",
+            "urn": "urn:bbc:radio:episode:w1730nll8c98x0y",
+            "network": {
+                "id": "bbc_world_service",
+                "key": "worldserviceradio",
+                "short_title": "World Service",
+                "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_world_service/{type}_{size}.{format}",
+                "network_type": "master_brand"
+            },
+            "titles": {
+                "primary": "BBC News Summary",
+                "secondary": "12/08/2026 22:30 GMT",
+                "tertiary": null,
+                "entity_title": "12/08/2026 22:30 GMT"
+            },
+            "synopses": {
+                "short": "The latest two minute news summary from BBC World Service.",
+                "medium": "The latest two minute news summary from BBC World Service.",
+                "long": null
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p060dh18.jpg",
+            "duration": {
+                "value": 120,
+                "label": "2 mins"
+            },
+            "progress": null,
+            "container": {
+                "type": "brand",
+                "id": "p002vsn1",
+                "urn": "urn:bbc:radio:brand:p002vsn1",
+                "title": "BBC News Summary",
+                "synopses": {
+                    "short": "The latest two minute news summary from BBC World Service",
+                    "medium": "The latest two minute news summary from BBC World Service.",
+                    "long": null
+                },
+                "activities": []
+            },
+            "download": {
+                "type": "non_drm",
+                "quality_variants": {
+                    "low": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm7xfk.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "medium": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm7xfk.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "high": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm7xfk.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    }
+                }
+            },
+            "availability": {
+                "from": "2026-08-12T22:32:30Z",
+                "to": "2026-08-14T22:32:30Z",
+                "label": "Expires on Friday 11:32pm"
+            },
+            "release": {
+                "date": "2026-08-12T00:00:00Z",
+                "label": "12 Aug 2026"
+            },
+            "guidance": {
+                "competition_warning": false,
+                "warnings": null
+            },
+            "activities": [],
+            "uris": [
+                {
+                    "type": "latest",
+                    "id": null,
+                    "label": "Latest",
+                    "uri": "/v2/my/programmes/playable?container=p002vsn1&sort=sequential&type=episode&experience=domestic"
+                }
+            ],
+            "play_context": null,
+            "recommendation": null
+        },
+        {
+            "type": "playable_item",
+            "id": "w1msm0w01hm7spf",
+            "urn": "urn:bbc:radio:episode:w1730nll8c98s8t",
+            "network": {
+                "id": "bbc_world_service",
+                "key": "worldserviceradio",
+                "short_title": "World Service",
+                "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_world_service/{type}_{size}.{format}",
+                "network_type": "master_brand"
+            },
+            "titles": {
+                "primary": "BBC News Summary",
+                "secondary": "12/08/2026 21:30 GMT",
+                "tertiary": null,
+                "entity_title": "12/08/2026 21:30 GMT"
+            },
+            "synopses": {
+                "short": "The latest two minute news summary from BBC World Service.",
+                "medium": "The latest two minute news summary from BBC World Service.",
+                "long": null
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p060dh18.jpg",
+            "duration": {
+                "value": 120,
+                "label": "2 mins"
+            },
+            "progress": null,
+            "container": {
+                "type": "brand",
+                "id": "p002vsn1",
+                "urn": "urn:bbc:radio:brand:p002vsn1",
+                "title": "BBC News Summary",
+                "synopses": {
+                    "short": "The latest two minute news summary from BBC World Service",
+                    "medium": "The latest two minute news summary from BBC World Service.",
+                    "long": null
+                },
+                "activities": []
+            },
+            "download": {
+                "type": "non_drm",
+                "quality_variants": {
+                    "low": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm7spf.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "medium": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm7spf.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "high": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm7spf.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    }
+                }
+            },
+            "availability": {
+                "from": "2026-08-12T21:32:30Z",
+                "to": "2026-08-14T21:32:30Z",
+                "label": "Expires on Friday 10:32pm"
+            },
+            "release": {
+                "date": "2026-08-12T00:00:00Z",
+                "label": "12 Aug 2026"
+            },
+            "guidance": {
+                "competition_warning": false,
+                "warnings": null
+            },
+            "activities": [],
+            "uris": [
+                {
+                    "type": "latest",
+                    "id": null,
+                    "label": "Latest",
+                    "uri": "/v2/my/programmes/playable?container=p002vsn1&sort=sequential&type=episode&experience=domestic"
+                }
+            ],
+            "play_context": null,
+            "recommendation": null
+        },
+        {
+            "type": "playable_item",
+            "id": "w1msm0w01hm7k65",
+            "urn": "urn:bbc:radio:episode:w1730nll8c98jsk",
+            "network": {
+                "id": "bbc_world_service",
+                "key": "worldserviceradio",
+                "short_title": "World Service",
+                "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_world_service/{type}_{size}.{format}",
+                "network_type": "master_brand"
+            },
+            "titles": {
+                "primary": "BBC News Summary",
+                "secondary": "12/08/2026 19:30 GMT",
+                "tertiary": null,
+                "entity_title": "12/08/2026 19:30 GMT"
+            },
+            "synopses": {
+                "short": "The latest two minute news summary from BBC World Service.",
+                "medium": "The latest two minute news summary from BBC World Service.",
+                "long": null
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p060dh18.jpg",
+            "duration": {
+                "value": 120,
+                "label": "2 mins"
+            },
+            "progress": null,
+            "container": {
+                "type": "brand",
+                "id": "p002vsn1",
+                "urn": "urn:bbc:radio:brand:p002vsn1",
+                "title": "BBC News Summary",
+                "synopses": {
+                    "short": "The latest two minute news summary from BBC World Service",
+                    "medium": "The latest two minute news summary from BBC World Service.",
+                    "long": null
+                },
+                "activities": []
+            },
+            "download": {
+                "type": "non_drm",
+                "quality_variants": {
+                    "low": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm7k65.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "medium": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm7k65.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "high": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm7k65.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    }
+                }
+            },
+            "availability": {
+                "from": "2026-08-12T19:32:30Z",
+                "to": "2026-08-14T19:32:30Z",
+                "label": "Expires on Friday 8:32pm"
+            },
+            "release": {
+                "date": "2026-08-12T00:00:00Z",
+                "label": "12 Aug 2026"
+            },
+            "guidance": {
+                "competition_warning": false,
+                "warnings": null
+            },
+            "activities": [],
+            "uris": [
+                {
+                    "type": "latest",
+                    "id": null,
+                    "label": "Latest",
+                    "uri": "/v2/my/programmes/playable?container=p002vsn1&sort=sequential&type=episode&experience=domestic"
+                }
+            ],
+            "play_context": null,
+            "recommendation": null
+        },
+        {
+            "type": "playable_item",
+            "id": "w1msm0w01hm7fg1",
+            "urn": "urn:bbc:radio:episode:w1730nll8c98f1f",
+            "network": {
+                "id": "bbc_world_service",
+                "key": "worldserviceradio",
+                "short_title": "World Service",
+                "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_world_service/{type}_{size}.{format}",
+                "network_type": "master_brand"
+            },
+            "titles": {
+                "primary": "BBC News Summary",
+                "secondary": "12/08/2026 18:30 GMT",
+                "tertiary": null,
+                "entity_title": "12/08/2026 18:30 GMT"
+            },
+            "synopses": {
+                "short": "The latest two minute news summary from BBC World Service.",
+                "medium": "The latest two minute news summary from BBC World Service.",
+                "long": null
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p060dh18.jpg",
+            "duration": {
+                "value": 120,
+                "label": "2 mins"
+            },
+            "progress": null,
+            "container": {
+                "type": "brand",
+                "id": "p002vsn1",
+                "urn": "urn:bbc:radio:brand:p002vsn1",
+                "title": "BBC News Summary",
+                "synopses": {
+                    "short": "The latest two minute news summary from BBC World Service",
+                    "medium": "The latest two minute news summary from BBC World Service.",
+                    "long": null
+                },
+                "activities": []
+            },
+            "download": {
+                "type": "non_drm",
+                "quality_variants": {
+                    "low": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm7fg1.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "medium": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm7fg1.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "high": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm7fg1.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    }
+                }
+            },
+            "availability": {
+                "from": "2026-08-12T18:32:30Z",
+                "to": "2026-08-14T18:32:30Z",
+                "label": "Expires on Friday 7:32pm"
+            },
+            "release": {
+                "date": "2026-08-12T00:00:00Z",
+                "label": "12 Aug 2026"
+            },
+            "guidance": {
+                "competition_warning": false,
+                "warnings": null
+            },
+            "activities": [],
+            "uris": [
+                {
+                    "type": "latest",
+                    "id": null,
+                    "label": "Latest",
+                    "uri": "/v2/my/programmes/playable?container=p002vsn1&sort=sequential&type=episode&experience=domestic"
+                }
+            ],
+            "play_context": null,
+            "recommendation": null
+        },
+        {
+            "type": "playable_item",
+            "id": "w1msm0w01hm79px",
+            "urn": "urn:bbc:radio:episode:w1730nll8c98999",
+            "network": {
+                "id": "bbc_world_service",
+                "key": "worldserviceradio",
+                "short_title": "World Service",
+                "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_world_service/{type}_{size}.{format}",
+                "network_type": "master_brand"
+            },
+            "titles": {
+                "primary": "BBC News Summary",
+                "secondary": "12/08/2026 17:30 GMT",
+                "tertiary": null,
+                "entity_title": "12/08/2026 17:30 GMT"
+            },
+            "synopses": {
+                "short": "The latest two minute news summary from BBC World Service.",
+                "medium": "The latest two minute news summary from BBC World Service.",
+                "long": null
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p060dh18.jpg",
+            "duration": {
+                "value": 120,
+                "label": "2 mins"
+            },
+            "progress": null,
+            "container": {
+                "type": "brand",
+                "id": "p002vsn1",
+                "urn": "urn:bbc:radio:brand:p002vsn1",
+                "title": "BBC News Summary",
+                "synopses": {
+                    "short": "The latest two minute news summary from BBC World Service",
+                    "medium": "The latest two minute news summary from BBC World Service.",
+                    "long": null
+                },
+                "activities": []
+            },
+            "download": {
+                "type": "non_drm",
+                "quality_variants": {
+                    "low": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm79px.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "medium": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm79px.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "high": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm79px.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    }
+                }
+            },
+            "availability": {
+                "from": "2026-08-12T17:32:30Z",
+                "to": "2026-08-14T17:32:30Z",
+                "label": "Expires on Friday 6:32pm"
+            },
+            "release": {
+                "date": "2026-08-12T00:00:00Z",
+                "label": "12 Aug 2026"
+            },
+            "guidance": {
+                "competition_warning": false,
+                "warnings": null
+            },
+            "activities": [],
+            "uris": [
+                {
+                    "type": "latest",
+                    "id": null,
+                    "label": "Latest",
+                    "uri": "/v2/my/programmes/playable?container=p002vsn1&sort=sequential&type=episode&experience=domestic"
+                }
+            ],
+            "play_context": null,
+            "recommendation": null
+        },
+        {
+            "type": "playable_item",
+            "id": "w1msm0w01hm726n",
+            "urn": "urn:bbc:radio:episode:w1730nll8c981t1",
+            "network": {
+                "id": "bbc_world_service",
+                "key": "worldserviceradio",
+                "short_title": "World Service",
+                "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_world_service/{type}_{size}.{format}",
+                "network_type": "master_brand"
+            },
+            "titles": {
+                "primary": "BBC News Summary",
+                "secondary": "12/08/2026 15:30 GMT",
+                "tertiary": null,
+                "entity_title": "12/08/2026 15:30 GMT"
+            },
+            "synopses": {
+                "short": "The latest two minute news summary from BBC World Service.",
+                "medium": "The latest two minute news summary from BBC World Service.",
+                "long": null
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p060dh18.jpg",
+            "duration": {
+                "value": 120,
+                "label": "2 mins"
+            },
+            "progress": null,
+            "container": {
+                "type": "brand",
+                "id": "p002vsn1",
+                "urn": "urn:bbc:radio:brand:p002vsn1",
+                "title": "BBC News Summary",
+                "synopses": {
+                    "short": "The latest two minute news summary from BBC World Service",
+                    "medium": "The latest two minute news summary from BBC World Service.",
+                    "long": null
+                },
+                "activities": []
+            },
+            "download": {
+                "type": "non_drm",
+                "quality_variants": {
+                    "low": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm726n.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "medium": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm726n.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "high": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm726n.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    }
+                }
+            },
+            "availability": {
+                "from": "2026-08-12T15:32:30Z",
+                "to": "2026-08-14T15:32:30Z",
+                "label": "Expires on Friday 4:32pm"
+            },
+            "release": {
+                "date": "2026-08-12T00:00:00Z",
+                "label": "12 Aug 2026"
+            },
+            "guidance": {
+                "competition_warning": false,
+                "warnings": null
+            },
+            "activities": [],
+            "uris": [
+                {
+                    "type": "latest",
+                    "id": null,
+                    "label": "Latest",
+                    "uri": "/v2/my/programmes/playable?container=p002vsn1&sort=sequential&type=episode&experience=domestic"
+                }
+            ],
+            "play_context": null,
+            "recommendation": null
+        },
+        {
+            "type": "playable_item",
+            "id": "w1msm0w01hm6ygj",
+            "urn": "urn:bbc:radio:episode:w1730nll8c97y1x",
+            "network": {
+                "id": "bbc_world_service",
+                "key": "worldserviceradio",
+                "short_title": "World Service",
+                "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_world_service/{type}_{size}.{format}",
+                "network_type": "master_brand"
+            },
+            "titles": {
+                "primary": "BBC News Summary",
+                "secondary": "12/08/2026 14:30 GMT",
+                "tertiary": null,
+                "entity_title": "12/08/2026 14:30 GMT"
+            },
+            "synopses": {
+                "short": "The latest two minute news summary from BBC World Service.",
+                "medium": "The latest two minute news summary from BBC World Service.",
+                "long": null
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p060dh18.jpg",
+            "duration": {
+                "value": 120,
+                "label": "2 mins"
+            },
+            "progress": null,
+            "container": {
+                "type": "brand",
+                "id": "p002vsn1",
+                "urn": "urn:bbc:radio:brand:p002vsn1",
+                "title": "BBC News Summary",
+                "synopses": {
+                    "short": "The latest two minute news summary from BBC World Service",
+                    "medium": "The latest two minute news summary from BBC World Service.",
+                    "long": null
+                },
+                "activities": []
+            },
+            "download": {
+                "type": "non_drm",
+                "quality_variants": {
+                    "low": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm6ygj.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "medium": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm6ygj.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "high": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm6ygj.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    }
+                }
+            },
+            "availability": {
+                "from": "2026-08-12T14:32:30Z",
+                "to": "2026-08-14T14:32:30Z",
+                "label": "Expires on Friday 3:32pm"
+            },
+            "release": {
+                "date": "2026-08-12T00:00:00Z",
+                "label": "12 Aug 2026"
+            },
+            "guidance": {
+                "competition_warning": false,
+                "warnings": null
+            },
+            "activities": [],
+            "uris": [
+                {
+                    "type": "latest",
+                    "id": null,
+                    "label": "Latest",
+                    "uri": "/v2/my/programmes/playable?container=p002vsn1&sort=sequential&type=episode&experience=domestic"
+                }
+            ],
+            "play_context": null,
+            "recommendation": null
+        },
+        {
+            "type": "playable_item",
+            "id": "w1msm0w01hm6pz8",
+            "urn": "urn:bbc:radio:episode:w1730nll8c97pkn",
+            "network": {
+                "id": "bbc_world_service",
+                "key": "worldserviceradio",
+                "short_title": "World Service",
+                "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_world_service/{type}_{size}.{format}",
+                "network_type": "master_brand"
+            },
+            "titles": {
+                "primary": "BBC News Summary",
+                "secondary": "12/08/2026 12:30 GMT",
+                "tertiary": null,
+                "entity_title": "12/08/2026 12:30 GMT"
+            },
+            "synopses": {
+                "short": "The latest two minute news summary from BBC World Service.",
+                "medium": "The latest two minute news summary from BBC World Service.",
+                "long": null
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p060dh18.jpg",
+            "duration": {
+                "value": 120,
+                "label": "2 mins"
+            },
+            "progress": null,
+            "container": {
+                "type": "brand",
+                "id": "p002vsn1",
+                "urn": "urn:bbc:radio:brand:p002vsn1",
+                "title": "BBC News Summary",
+                "synopses": {
+                    "short": "The latest two minute news summary from BBC World Service",
+                    "medium": "The latest two minute news summary from BBC World Service.",
+                    "long": null
+                },
+                "activities": []
+            },
+            "download": {
+                "type": "non_drm",
+                "quality_variants": {
+                    "low": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm6pz8.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "medium": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm6pz8.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "high": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm6pz8.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    }
+                }
+            },
+            "availability": {
+                "from": "2026-08-12T12:32:30Z",
+                "to": "2026-08-14T12:32:30Z",
+                "label": "Expires on Friday 1:32pm"
+            },
+            "release": {
+                "date": "2026-08-12T00:00:00Z",
+                "label": "12 Aug 2026"
+            },
+            "guidance": {
+                "competition_warning": false,
+                "warnings": null
+            },
+            "activities": [],
+            "uris": [
+                {
+                    "type": "latest",
+                    "id": null,
+                    "label": "Latest",
+                    "uri": "/v2/my/programmes/playable?container=p002vsn1&sort=sequential&type=episode&experience=domestic"
+                }
+            ],
+            "play_context": null,
+            "recommendation": null
+        },
+        {
+            "type": "playable_item",
+            "id": "w1msm0w01hm6gh0",
+            "urn": "urn:bbc:radio:episode:w1730nll8c97g2d",
+            "network": {
+                "id": "bbc_world_service",
+                "key": "worldserviceradio",
+                "short_title": "World Service",
+                "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_world_service/{type}_{size}.{format}",
+                "network_type": "master_brand"
+            },
+            "titles": {
+                "primary": "BBC News Summary",
+                "secondary": "12/08/2026 10:30 GMT",
+                "tertiary": null,
+                "entity_title": "12/08/2026 10:30 GMT"
+            },
+            "synopses": {
+                "short": "The latest two minute news summary from BBC World Service.",
+                "medium": "The latest two minute news summary from BBC World Service.",
+                "long": null
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p060dh18.jpg",
+            "duration": {
+                "value": 120,
+                "label": "2 mins"
+            },
+            "progress": null,
+            "container": {
+                "type": "brand",
+                "id": "p002vsn1",
+                "urn": "urn:bbc:radio:brand:p002vsn1",
+                "title": "BBC News Summary",
+                "synopses": {
+                    "short": "The latest two minute news summary from BBC World Service",
+                    "medium": "The latest two minute news summary from BBC World Service.",
+                    "long": null
+                },
+                "activities": []
+            },
+            "download": {
+                "type": "non_drm",
+                "quality_variants": {
+                    "low": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm6gh0.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "medium": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm6gh0.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "high": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm6gh0.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    }
+                }
+            },
+            "availability": {
+                "from": "2026-08-12T10:32:30Z",
+                "to": "2026-08-14T10:32:30Z",
+                "label": "Expires on Friday 11:32am"
+            },
+            "release": {
+                "date": "2026-08-12T00:00:00Z",
+                "label": "12 Aug 2026"
+            },
+            "guidance": {
+                "competition_warning": false,
+                "warnings": null
+            },
+            "activities": [],
+            "uris": [
+                {
+                    "type": "latest",
+                    "id": null,
+                    "label": "Latest",
+                    "uri": "/v2/my/programmes/playable?container=p002vsn1&sort=sequential&type=episode&experience=domestic"
+                }
+            ],
+            "play_context": null,
+            "recommendation": null
+        },
+        {
+            "type": "playable_item",
+            "id": "w1msm0w01hm66zr",
+            "urn": "urn:bbc:radio:episode:w1730nll8c976l4",
+            "network": {
+                "id": "bbc_world_service",
+                "key": "worldserviceradio",
+                "short_title": "World Service",
+                "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_world_service/{type}_{size}.{format}",
+                "network_type": "master_brand"
+            },
+            "titles": {
+                "primary": "BBC News Summary",
+                "secondary": "12/08/2026 08:30 GMT",
+                "tertiary": null,
+                "entity_title": "12/08/2026 08:30 GMT"
+            },
+            "synopses": {
+                "short": "The latest two minute news summary from BBC World Service.",
+                "medium": "The latest two minute news summary from BBC World Service.",
+                "long": null
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p060dh18.jpg",
+            "duration": {
+                "value": 120,
+                "label": "2 mins"
+            },
+            "progress": null,
+            "container": {
+                "type": "brand",
+                "id": "p002vsn1",
+                "urn": "urn:bbc:radio:brand:p002vsn1",
+                "title": "BBC News Summary",
+                "synopses": {
+                    "short": "The latest two minute news summary from BBC World Service",
+                    "medium": "The latest two minute news summary from BBC World Service.",
+                    "long": null
+                },
+                "activities": []
+            },
+            "download": {
+                "type": "non_drm",
+                "quality_variants": {
+                    "low": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm66zr.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "medium": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm66zr.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "high": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm66zr.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    }
+                }
+            },
+            "availability": {
+                "from": "2026-08-12T08:32:30Z",
+                "to": "2026-08-14T08:32:30Z",
+                "label": "Expires on Friday 9:32am"
+            },
+            "release": {
+                "date": "2026-08-12T00:00:00Z",
+                "label": "12 Aug 2026"
+            },
+            "guidance": {
+                "competition_warning": false,
+                "warnings": null
+            },
+            "activities": [],
+            "uris": [
+                {
+                    "type": "latest",
+                    "id": null,
+                    "label": "Latest",
+                    "uri": "/v2/my/programmes/playable?container=p002vsn1&sort=sequential&type=episode&experience=domestic"
+                }
+            ],
+            "play_context": null,
+            "recommendation": null
+        },
+        {
+            "type": "playable_item",
+            "id": "w1msm0w01hm637m",
+            "urn": "urn:bbc:radio:episode:w1730nll8c972v0",
+            "network": {
+                "id": "bbc_world_service",
+                "key": "worldserviceradio",
+                "short_title": "World Service",
+                "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_world_service/{type}_{size}.{format}",
+                "network_type": "master_brand"
+            },
+            "titles": {
+                "primary": "BBC News Summary",
+                "secondary": "12/08/2026 07:30 GMT",
+                "tertiary": null,
+                "entity_title": "12/08/2026 07:30 GMT"
+            },
+            "synopses": {
+                "short": "The latest two minute news summary from BBC World Service.",
+                "medium": "The latest two minute news summary from BBC World Service.",
+                "long": null
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p060dh18.jpg",
+            "duration": {
+                "value": 120,
+                "label": "2 mins"
+            },
+            "progress": null,
+            "container": {
+                "type": "brand",
+                "id": "p002vsn1",
+                "urn": "urn:bbc:radio:brand:p002vsn1",
+                "title": "BBC News Summary",
+                "synopses": {
+                    "short": "The latest two minute news summary from BBC World Service",
+                    "medium": "The latest two minute news summary from BBC World Service.",
+                    "long": null
+                },
+                "activities": []
+            },
+            "download": {
+                "type": "non_drm",
+                "quality_variants": {
+                    "low": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm637m.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "medium": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm637m.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "high": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm637m.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    }
+                }
+            },
+            "availability": {
+                "from": "2026-08-12T07:32:30Z",
+                "to": "2026-08-14T07:32:30Z",
+                "label": "Expires on Friday 8:32am"
+            },
+            "release": {
+                "date": "2026-08-12T00:00:00Z",
+                "label": "12 Aug 2026"
+            },
+            "guidance": {
+                "competition_warning": false,
+                "warnings": null
+            },
+            "activities": [],
+            "uris": [
+                {
+                    "type": "latest",
+                    "id": null,
+                    "label": "Latest",
+                    "uri": "/v2/my/programmes/playable?container=p002vsn1&sort=sequential&type=episode&experience=domestic"
+                }
+            ],
+            "play_context": null,
+            "recommendation": null
+        },
+        {
+            "type": "playable_item",
+            "id": "w1msm0w01hm5r07",
+            "urn": "urn:bbc:radio:episode:w1730nll8c96qlm",
+            "network": {
+                "id": "bbc_world_service",
+                "key": "worldserviceradio",
+                "short_title": "World Service",
+                "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_world_service/{type}_{size}.{format}",
+                "network_type": "master_brand"
+            },
+            "titles": {
+                "primary": "BBC News Summary",
+                "secondary": "12/08/2026 04:30 GMT",
+                "tertiary": null,
+                "entity_title": "12/08/2026 04:30 GMT"
+            },
+            "synopses": {
+                "short": "The latest two minute news summary from BBC World Service.",
+                "medium": "The latest two minute news summary from BBC World Service.",
+                "long": null
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p060dh18.jpg",
+            "duration": {
+                "value": 120,
+                "label": "2 mins"
+            },
+            "progress": null,
+            "container": {
+                "type": "brand",
+                "id": "p002vsn1",
+                "urn": "urn:bbc:radio:brand:p002vsn1",
+                "title": "BBC News Summary",
+                "synopses": {
+                    "short": "The latest two minute news summary from BBC World Service",
+                    "medium": "The latest two minute news summary from BBC World Service.",
+                    "long": null
+                },
+                "activities": []
+            },
+            "download": {
+                "type": "non_drm",
+                "quality_variants": {
+                    "low": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm5r07.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "medium": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm5r07.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "high": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm5r07.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    }
+                }
+            },
+            "availability": {
+                "from": "2026-08-12T04:32:30Z",
+                "to": "2026-08-14T04:32:30Z",
+                "label": "Expires on Friday 5:32am"
+            },
+            "release": {
+                "date": "2026-08-12T00:00:00Z",
+                "label": "12 Aug 2026"
+            },
+            "guidance": {
+                "competition_warning": false,
+                "warnings": null
+            },
+            "activities": [],
+            "uris": [
+                {
+                    "type": "latest",
+                    "id": null,
+                    "label": "Latest",
+                    "uri": "/v2/my/programmes/playable?container=p002vsn1&sort=sequential&type=episode&experience=domestic"
+                }
+            ],
+            "play_context": null,
+            "recommendation": null
+        },
+        {
+            "type": "playable_item",
+            "id": "w1msm0w01hm5m83",
+            "urn": "urn:bbc:radio:episode:w1730nll8c96lvh",
+            "network": {
+                "id": "bbc_world_service",
+                "key": "worldserviceradio",
+                "short_title": "World Service",
+                "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_world_service/{type}_{size}.{format}",
+                "network_type": "master_brand"
+            },
+            "titles": {
+                "primary": "BBC News Summary",
+                "secondary": "12/08/2026 03:30 GMT",
+                "tertiary": null,
+                "entity_title": "12/08/2026 03:30 GMT"
+            },
+            "synopses": {
+                "short": "The latest two minute news summary from BBC World Service.",
+                "medium": "The latest two minute news summary from BBC World Service.",
+                "long": null
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p060dh18.jpg",
+            "duration": {
+                "value": 120,
+                "label": "2 mins"
+            },
+            "progress": null,
+            "container": {
+                "type": "brand",
+                "id": "p002vsn1",
+                "urn": "urn:bbc:radio:brand:p002vsn1",
+                "title": "BBC News Summary",
+                "synopses": {
+                    "short": "The latest two minute news summary from BBC World Service",
+                    "medium": "The latest two minute news summary from BBC World Service.",
+                    "long": null
+                },
+                "activities": []
+            },
+            "download": {
+                "type": "non_drm",
+                "quality_variants": {
+                    "low": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm5m83.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "medium": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm5m83.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "high": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm5m83.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    }
+                }
+            },
+            "availability": {
+                "from": "2026-08-12T03:32:30Z",
+                "to": "2026-08-14T03:32:30Z",
+                "label": "Expires on Friday 4:32am"
+            },
+            "release": {
+                "date": "2026-08-12T00:00:00Z",
+                "label": "12 Aug 2026"
+            },
+            "guidance": {
+                "competition_warning": false,
+                "warnings": null
+            },
+            "activities": [],
+            "uris": [
+                {
+                    "type": "latest",
+                    "id": null,
+                    "label": "Latest",
+                    "uri": "/v2/my/programmes/playable?container=p002vsn1&sort=sequential&type=episode&experience=domestic"
+                }
+            ],
+            "play_context": null,
+            "recommendation": null
+        },
+        {
+            "type": "playable_item",
+            "id": "w1msm0w01hm5crv",
+            "urn": "urn:bbc:radio:episode:w1730nll8c96cc7",
+            "network": {
+                "id": "bbc_world_service",
+                "key": "worldserviceradio",
+                "short_title": "World Service",
+                "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_world_service/{type}_{size}.{format}",
+                "network_type": "master_brand"
+            },
+            "titles": {
+                "primary": "BBC News Summary",
+                "secondary": "12/08/2026 01:30 GMT",
+                "tertiary": null,
+                "entity_title": "12/08/2026 01:30 GMT"
+            },
+            "synopses": {
+                "short": "The latest two minute news summary from BBC World Service.",
+                "medium": "The latest two minute news summary from BBC World Service.",
+                "long": null
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p060dh18.jpg",
+            "duration": {
+                "value": 120,
+                "label": "2 mins"
+            },
+            "progress": null,
+            "container": {
+                "type": "brand",
+                "id": "p002vsn1",
+                "urn": "urn:bbc:radio:brand:p002vsn1",
+                "title": "BBC News Summary",
+                "synopses": {
+                    "short": "The latest two minute news summary from BBC World Service",
+                    "medium": "The latest two minute news summary from BBC World Service.",
+                    "long": null
+                },
+                "activities": []
+            },
+            "download": {
+                "type": "non_drm",
+                "quality_variants": {
+                    "low": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm5crv.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "medium": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm5crv.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "high": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm5crv.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    }
+                }
+            },
+            "availability": {
+                "from": "2026-08-12T01:32:30Z",
+                "to": "2026-08-14T01:32:30Z",
+                "label": "Expires on Friday 2:32am"
+            },
+            "release": {
+                "date": "2026-08-12T00:00:00Z",
+                "label": "12 Aug 2026"
+            },
+            "guidance": {
+                "competition_warning": false,
+                "warnings": null
+            },
+            "activities": [],
+            "uris": [
+                {
+                    "type": "latest",
+                    "id": null,
+                    "label": "Latest",
+                    "uri": "/v2/my/programmes/playable?container=p002vsn1&sort=sequential&type=episode&experience=domestic"
+                }
+            ],
+            "play_context": null,
+            "recommendation": null
+        },
+        {
+            "type": "playable_item",
+            "id": "w1msm0w01hm580q",
+            "urn": "urn:bbc:radio:episode:w1730nll8c967m3",
+            "network": {
+                "id": "bbc_world_service",
+                "key": "worldserviceradio",
+                "short_title": "World Service",
+                "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_world_service/{type}_{size}.{format}",
+                "network_type": "master_brand"
+            },
+            "titles": {
+                "primary": "BBC News Summary",
+                "secondary": "12/08/2026 00:30 GMT",
+                "tertiary": null,
+                "entity_title": "12/08/2026 00:30 GMT"
+            },
+            "synopses": {
+                "short": "The latest two minute news summary from BBC World Service.",
+                "medium": "The latest two minute news summary from BBC World Service.",
+                "long": null
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p060dh18.jpg",
+            "duration": {
+                "value": 120,
+                "label": "2 mins"
+            },
+            "progress": null,
+            "container": {
+                "type": "brand",
+                "id": "p002vsn1",
+                "urn": "urn:bbc:radio:brand:p002vsn1",
+                "title": "BBC News Summary",
+                "synopses": {
+                    "short": "The latest two minute news summary from BBC World Service",
+                    "medium": "The latest two minute news summary from BBC World Service.",
+                    "long": null
+                },
+                "activities": []
+            },
+            "download": {
+                "type": "non_drm",
+                "quality_variants": {
+                    "low": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm580q.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "medium": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm580q.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "high": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm580q.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    }
+                }
+            },
+            "availability": {
+                "from": "2026-08-12T00:32:30Z",
+                "to": "2026-08-14T00:32:30Z",
+                "label": "Expires on Friday 1:32am"
+            },
+            "release": {
+                "date": "2026-08-12T00:00:00Z",
+                "label": "12 Aug 2026"
+            },
+            "guidance": {
+                "competition_warning": false,
+                "warnings": null
+            },
+            "activities": [],
+            "uris": [
+                {
+                    "type": "latest",
+                    "id": null,
+                    "label": "Latest",
+                    "uri": "/v2/my/programmes/playable?container=p002vsn1&sort=sequential&type=episode&experience=domestic"
+                }
+            ],
+            "play_context": null,
+            "recommendation": null
+        },
+        {
+            "type": "playable_item",
+            "id": "w1msm0w01hm50jg",
+            "urn": "urn:bbc:radio:episode:w1730nll8c9603v",
+            "network": {
+                "id": "bbc_world_service",
+                "key": "worldserviceradio",
+                "short_title": "World Service",
+                "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_world_service/{type}_{size}.{format}",
+                "network_type": "master_brand"
+            },
+            "titles": {
+                "primary": "BBC News Summary",
+                "secondary": "11/08/2026 22:30 GMT",
+                "tertiary": null,
+                "entity_title": "11/08/2026 22:30 GMT"
+            },
+            "synopses": {
+                "short": "The latest two minute news summary from BBC World Service.",
+                "medium": "The latest two minute news summary from BBC World Service.",
+                "long": null
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p060dh18.jpg",
+            "duration": {
+                "value": 120,
+                "label": "2 mins"
+            },
+            "progress": null,
+            "container": {
+                "type": "brand",
+                "id": "p002vsn1",
+                "urn": "urn:bbc:radio:brand:p002vsn1",
+                "title": "BBC News Summary",
+                "synopses": {
+                    "short": "The latest two minute news summary from BBC World Service",
+                    "medium": "The latest two minute news summary from BBC World Service.",
+                    "long": null
+                },
+                "activities": []
+            },
+            "download": {
+                "type": "non_drm",
+                "quality_variants": {
+                    "low": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm50jg.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "medium": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm50jg.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "high": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm50jg.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    }
+                }
+            },
+            "availability": {
+                "from": "2026-08-11T22:32:30Z",
+                "to": "2026-08-13T22:32:30Z",
+                "label": "Expires today 11:32pm"
+            },
+            "release": {
+                "date": "2026-08-11T00:00:00Z",
+                "label": "11 Aug 2026"
+            },
+            "guidance": {
+                "competition_warning": false,
+                "warnings": null
+            },
+            "activities": [],
+            "uris": [
+                {
+                    "type": "latest",
+                    "id": null,
+                    "label": "Latest",
+                    "uri": "/v2/my/programmes/playable?container=p002vsn1&sort=sequential&type=episode&experience=domestic"
+                }
+            ],
+            "play_context": null,
+            "recommendation": null
+        },
+        {
+            "type": "playable_item",
+            "id": "w1msm0w01hm4wsb",
+            "urn": "urn:bbc:radio:episode:w1730nll8c95wcq",
+            "network": {
+                "id": "bbc_world_service",
+                "key": "worldserviceradio",
+                "short_title": "World Service",
+                "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_world_service/{type}_{size}.{format}",
+                "network_type": "master_brand"
+            },
+            "titles": {
+                "primary": "BBC News Summary",
+                "secondary": "11/08/2026 21:30 GMT",
+                "tertiary": null,
+                "entity_title": "11/08/2026 21:30 GMT"
+            },
+            "synopses": {
+                "short": "The latest two minute news summary from BBC World Service.",
+                "medium": "The latest two minute news summary from BBC World Service.",
+                "long": null
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p060dh18.jpg",
+            "duration": {
+                "value": 120,
+                "label": "2 mins"
+            },
+            "progress": null,
+            "container": {
+                "type": "brand",
+                "id": "p002vsn1",
+                "urn": "urn:bbc:radio:brand:p002vsn1",
+                "title": "BBC News Summary",
+                "synopses": {
+                    "short": "The latest two minute news summary from BBC World Service",
+                    "medium": "The latest two minute news summary from BBC World Service.",
+                    "long": null
+                },
+                "activities": []
+            },
+            "download": {
+                "type": "non_drm",
+                "quality_variants": {
+                    "low": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm4wsb.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "medium": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm4wsb.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "high": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm4wsb.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    }
+                }
+            },
+            "availability": {
+                "from": "2026-08-11T21:32:30Z",
+                "to": "2026-08-13T21:32:30Z",
+                "label": "Expires today 10:32pm"
+            },
+            "release": {
+                "date": "2026-08-11T00:00:00Z",
+                "label": "11 Aug 2026"
+            },
+            "guidance": {
+                "competition_warning": false,
+                "warnings": null
+            },
+            "activities": [],
+            "uris": [
+                {
+                    "type": "latest",
+                    "id": null,
+                    "label": "Latest",
+                    "uri": "/v2/my/programmes/playable?container=p002vsn1&sort=sequential&type=episode&experience=domestic"
+                }
+            ],
+            "play_context": null,
+            "recommendation": null
+        },
+        {
+            "type": "playable_item",
+            "id": "w1msm0w01hm4n92",
+            "urn": "urn:bbc:radio:episode:w1730nll8c95mwg",
+            "network": {
+                "id": "bbc_world_service",
+                "key": "worldserviceradio",
+                "short_title": "World Service",
+                "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_world_service/{type}_{size}.{format}",
+                "network_type": "master_brand"
+            },
+            "titles": {
+                "primary": "BBC News Summary",
+                "secondary": "11/08/2026 19:30 GMT",
+                "tertiary": null,
+                "entity_title": "11/08/2026 19:30 GMT"
+            },
+            "synopses": {
+                "short": "The latest two minute news summary from BBC World Service.",
+                "medium": "The latest two minute news summary from BBC World Service.",
+                "long": null
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p060dh18.jpg",
+            "duration": {
+                "value": 120,
+                "label": "2 mins"
+            },
+            "progress": null,
+            "container": {
+                "type": "brand",
+                "id": "p002vsn1",
+                "urn": "urn:bbc:radio:brand:p002vsn1",
+                "title": "BBC News Summary",
+                "synopses": {
+                    "short": "The latest two minute news summary from BBC World Service",
+                    "medium": "The latest two minute news summary from BBC World Service.",
+                    "long": null
+                },
+                "activities": []
+            },
+            "download": {
+                "type": "non_drm",
+                "quality_variants": {
+                    "low": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm4n92.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "medium": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm4n92.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "high": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm4n92.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    }
+                }
+            },
+            "availability": {
+                "from": "2026-08-11T19:32:30Z",
+                "to": "2026-08-13T19:32:30Z",
+                "label": "Expires today 8:32pm"
+            },
+            "release": {
+                "date": "2026-08-11T00:00:00Z",
+                "label": "11 Aug 2026"
+            },
+            "guidance": {
+                "competition_warning": false,
+                "warnings": null
+            },
+            "activities": [],
+            "uris": [
+                {
+                    "type": "latest",
+                    "id": null,
+                    "label": "Latest",
+                    "uri": "/v2/my/programmes/playable?container=p002vsn1&sort=sequential&type=episode&experience=domestic"
+                }
+            ],
+            "play_context": null,
+            "recommendation": null
+        },
+        {
+            "type": "playable_item",
+            "id": "w1msm0w01hm4jjy",
+            "urn": "urn:bbc:radio:episode:w1730nll8c95j4b",
+            "network": {
+                "id": "bbc_world_service",
+                "key": "worldserviceradio",
+                "short_title": "World Service",
+                "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_world_service/{type}_{size}.{format}",
+                "network_type": "master_brand"
+            },
+            "titles": {
+                "primary": "BBC News Summary",
+                "secondary": "11/08/2026 18:30 GMT",
+                "tertiary": null,
+                "entity_title": "11/08/2026 18:30 GMT"
+            },
+            "synopses": {
+                "short": "The latest two minute news summary from BBC World Service.",
+                "medium": "The latest two minute news summary from BBC World Service.",
+                "long": null
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p060dh18.jpg",
+            "duration": {
+                "value": 120,
+                "label": "2 mins"
+            },
+            "progress": null,
+            "container": {
+                "type": "brand",
+                "id": "p002vsn1",
+                "urn": "urn:bbc:radio:brand:p002vsn1",
+                "title": "BBC News Summary",
+                "synopses": {
+                    "short": "The latest two minute news summary from BBC World Service",
+                    "medium": "The latest two minute news summary from BBC World Service.",
+                    "long": null
+                },
+                "activities": []
+            },
+            "download": {
+                "type": "non_drm",
+                "quality_variants": {
+                    "low": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm4jjy.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "medium": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm4jjy.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "high": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm4jjy.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    }
+                }
+            },
+            "availability": {
+                "from": "2026-08-11T18:32:30Z",
+                "to": "2026-08-13T18:32:30Z",
+                "label": "Expires today 7:32pm"
+            },
+            "release": {
+                "date": "2026-08-11T00:00:00Z",
+                "label": "11 Aug 2026"
+            },
+            "guidance": {
+                "competition_warning": false,
+                "warnings": null
+            },
+            "activities": [],
+            "uris": [
+                {
+                    "type": "latest",
+                    "id": null,
+                    "label": "Latest",
+                    "uri": "/v2/my/programmes/playable?container=p002vsn1&sort=sequential&type=episode&experience=domestic"
+                }
+            ],
+            "play_context": null,
+            "recommendation": null
+        },
+        {
+            "type": "playable_item",
+            "id": "w1msm0w01hm4dst",
+            "urn": "urn:bbc:radio:episode:w1730nll8c95dd6",
+            "network": {
+                "id": "bbc_world_service",
+                "key": "worldserviceradio",
+                "short_title": "World Service",
+                "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_world_service/{type}_{size}.{format}",
+                "network_type": "master_brand"
+            },
+            "titles": {
+                "primary": "BBC News Summary",
+                "secondary": "11/08/2026 17:30 GMT",
+                "tertiary": null,
+                "entity_title": "11/08/2026 17:30 GMT"
+            },
+            "synopses": {
+                "short": "The latest two minute news summary from BBC World Service.",
+                "medium": "The latest two minute news summary from BBC World Service.",
+                "long": null
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p060dh18.jpg",
+            "duration": {
+                "value": 120,
+                "label": "2 mins"
+            },
+            "progress": null,
+            "container": {
+                "type": "brand",
+                "id": "p002vsn1",
+                "urn": "urn:bbc:radio:brand:p002vsn1",
+                "title": "BBC News Summary",
+                "synopses": {
+                    "short": "The latest two minute news summary from BBC World Service",
+                    "medium": "The latest two minute news summary from BBC World Service.",
+                    "long": null
+                },
+                "activities": []
+            },
+            "download": {
+                "type": "non_drm",
+                "quality_variants": {
+                    "low": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm4dst.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "medium": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm4dst.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "high": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm4dst.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    }
+                }
+            },
+            "availability": {
+                "from": "2026-08-11T17:32:30Z",
+                "to": "2026-08-13T17:32:30Z",
+                "label": "Expires today 6:32pm"
+            },
+            "release": {
+                "date": "2026-08-11T00:00:00Z",
+                "label": "11 Aug 2026"
+            },
+            "guidance": {
+                "competition_warning": false,
+                "warnings": null
+            },
+            "activities": [],
+            "uris": [
+                {
+                    "type": "latest",
+                    "id": null,
+                    "label": "Latest",
+                    "uri": "/v2/my/programmes/playable?container=p002vsn1&sort=sequential&type=episode&experience=domestic"
+                }
+            ],
+            "play_context": null,
+            "recommendation": null
+        },
+        {
+            "type": "playable_item",
+            "id": "w1msm0w01hm459k",
+            "urn": "urn:bbc:radio:episode:w1730nll8c954wy",
+            "network": {
+                "id": "bbc_world_service",
+                "key": "worldserviceradio",
+                "short_title": "World Service",
+                "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_world_service/{type}_{size}.{format}",
+                "network_type": "master_brand"
+            },
+            "titles": {
+                "primary": "BBC News Summary",
+                "secondary": "11/08/2026 15:30 GMT",
+                "tertiary": null,
+                "entity_title": "11/08/2026 15:30 GMT"
+            },
+            "synopses": {
+                "short": "The latest two minute news summary from BBC World Service.",
+                "medium": "The latest two minute news summary from BBC World Service.",
+                "long": null
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p060dh18.jpg",
+            "duration": {
+                "value": 120,
+                "label": "2 mins"
+            },
+            "progress": null,
+            "container": {
+                "type": "brand",
+                "id": "p002vsn1",
+                "urn": "urn:bbc:radio:brand:p002vsn1",
+                "title": "BBC News Summary",
+                "synopses": {
+                    "short": "The latest two minute news summary from BBC World Service",
+                    "medium": "The latest two minute news summary from BBC World Service.",
+                    "long": null
+                },
+                "activities": []
+            },
+            "download": {
+                "type": "non_drm",
+                "quality_variants": {
+                    "low": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm459k.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "medium": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm459k.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "high": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm459k.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    }
+                }
+            },
+            "availability": {
+                "from": "2026-08-11T15:32:30Z",
+                "to": "2026-08-13T15:32:30Z",
+                "label": "Expires today 4:32pm"
+            },
+            "release": {
+                "date": "2026-08-11T00:00:00Z",
+                "label": "11 Aug 2026"
+            },
+            "guidance": {
+                "competition_warning": false,
+                "warnings": null
+            },
+            "activities": [],
+            "uris": [
+                {
+                    "type": "latest",
+                    "id": null,
+                    "label": "Latest",
+                    "uri": "/v2/my/programmes/playable?container=p002vsn1&sort=sequential&type=episode&experience=domestic"
+                }
+            ],
+            "play_context": null,
+            "recommendation": null
+        },
+        {
+            "type": "playable_item",
+            "id": "w1msm0w01hm41kf",
+            "urn": "urn:bbc:radio:episode:w1730nll8c9514t",
+            "network": {
+                "id": "bbc_world_service",
+                "key": "worldserviceradio",
+                "short_title": "World Service",
+                "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_world_service/{type}_{size}.{format}",
+                "network_type": "master_brand"
+            },
+            "titles": {
+                "primary": "BBC News Summary",
+                "secondary": "11/08/2026 14:30 GMT",
+                "tertiary": null,
+                "entity_title": "11/08/2026 14:30 GMT"
+            },
+            "synopses": {
+                "short": "The latest two minute news summary from BBC World Service.",
+                "medium": "The latest two minute news summary from BBC World Service.",
+                "long": null
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p060dh18.jpg",
+            "duration": {
+                "value": 120,
+                "label": "2 mins"
+            },
+            "progress": null,
+            "container": {
+                "type": "brand",
+                "id": "p002vsn1",
+                "urn": "urn:bbc:radio:brand:p002vsn1",
+                "title": "BBC News Summary",
+                "synopses": {
+                    "short": "The latest two minute news summary from BBC World Service",
+                    "medium": "The latest two minute news summary from BBC World Service.",
+                    "long": null
+                },
+                "activities": []
+            },
+            "download": {
+                "type": "non_drm",
+                "quality_variants": {
+                    "low": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm41kf.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "medium": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm41kf.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "high": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm41kf.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    }
+                }
+            },
+            "availability": {
+                "from": "2026-08-11T14:32:30Z",
+                "to": "2026-08-13T14:32:30Z",
+                "label": "Expires today 3:32pm"
+            },
+            "release": {
+                "date": "2026-08-11T00:00:00Z",
+                "label": "11 Aug 2026"
+            },
+            "guidance": {
+                "competition_warning": false,
+                "warnings": null
+            },
+            "activities": [],
+            "uris": [
+                {
+                    "type": "latest",
+                    "id": null,
+                    "label": "Latest",
+                    "uri": "/v2/my/programmes/playable?container=p002vsn1&sort=sequential&type=episode&experience=domestic"
+                }
+            ],
+            "play_context": null,
+            "recommendation": null
+        },
+        {
+            "type": "playable_item",
+            "id": "w1msm0w01hm3t25",
+            "urn": "urn:bbc:radio:episode:w1730nll8c94snk",
+            "network": {
+                "id": "bbc_world_service",
+                "key": "worldserviceradio",
+                "short_title": "World Service",
+                "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_world_service/{type}_{size}.{format}",
+                "network_type": "master_brand"
+            },
+            "titles": {
+                "primary": "BBC News Summary",
+                "secondary": "11/08/2026 12:30 GMT",
+                "tertiary": null,
+                "entity_title": "11/08/2026 12:30 GMT"
+            },
+            "synopses": {
+                "short": "The latest two minute news summary from BBC World Service.",
+                "medium": "The latest two minute news summary from BBC World Service.",
+                "long": null
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p060dh18.jpg",
+            "duration": {
+                "value": 120,
+                "label": "2 mins"
+            },
+            "progress": null,
+            "container": {
+                "type": "brand",
+                "id": "p002vsn1",
+                "urn": "urn:bbc:radio:brand:p002vsn1",
+                "title": "BBC News Summary",
+                "synopses": {
+                    "short": "The latest two minute news summary from BBC World Service",
+                    "medium": "The latest two minute news summary from BBC World Service.",
+                    "long": null
+                },
+                "activities": []
+            },
+            "download": {
+                "type": "non_drm",
+                "quality_variants": {
+                    "low": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm3t25.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "medium": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm3t25.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    },
+                    "high": {
+                        "bitrate": 128,
+                        "file_url": "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/w1msm0w01hm3t25.mp3",
+                        "file_size": 3000000,
+                        "label": "3 MB"
+                    }
+                }
+            },
+            "availability": {
+                "from": "2026-08-11T12:32:30Z",
+                "to": "2026-08-13T12:32:30Z",
+                "label": "Expires today 1:32pm"
+            },
+            "release": {
+                "date": "2026-08-11T00:00:00Z",
+                "label": "11 Aug 2026"
+            },
+            "guidance": {
+                "competition_warning": false,
+                "warnings": null
+            },
+            "activities": [],
+            "uris": [
+                {
+                    "type": "latest",
+                    "id": null,
+                    "label": "Latest",
+                    "uri": "/v2/my/programmes/playable?container=p002vsn1&sort=sequential&type=episode&experience=domestic"
+                }
+            ],
+            "play_context": null,
+            "recommendation": null
+        },
+        {
+            "type": "playable_item",
+            "id": "p0398gyd",
+            "urn": "urn:bbc:radio:clip:p0398gyb",
+            "network": {
+                "id": "bbc_world_service",
+                "key": "worldserviceradio",
+                "short_title": "World Service",
+                "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_world_service/{type}_{size}.{format}",
+                "network_type": "master_brand"
+            },
+            "titles": {
+                "primary": "BBC News Summary",
+                "secondary": "World Cheese Awards as Dairy Producers Target Consumers in Asia",
+                "tertiary": null,
+                "entity_title": "World Cheese Awards as Dairy Producers Target Consumers in Asia"
+            },
+            "synopses": {
+                "short": "World Cheese Awards as Dairy Producers Target Consumers in Asia",
+                "medium": "World Cheese Awards as Dairy Producers Target Consumers in Asia",
+                "long": "The World Cheese Awards event, in the English city of Birmingham, has given the dairy industry a chance to highlight its best products amid efforts to expand sales in Asia. We hear from the event and get analysis of challenges facing dairy producers from the winner of the best cheese last year.\n\n(Picture: Cheese on sale at a market in London. Copyright BBC)"
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p0398gxt.jpg",
+            "duration": {
+                "value": 289,
+                "label": "4 mins"
+            },
+            "progress": null,
+            "container": {
+                "type": "brand",
+                "id": "p002vsn1",
+                "urn": "urn:bbc:radio:brand:p002vsn1",
+                "title": "BBC News Summary",
+                "synopses": {
+                    "short": "The latest two minute news summary from BBC World Service",
+                    "medium": "The latest two minute news summary from BBC World Service.",
+                    "long": null
+                },
+                "activities": []
+            },
+            "download": null,
+            "availability": {
+                "from": "2015-11-26T19:02:59Z",
+                "to": null,
+                "label": "Available for over a year"
+            },
+            "release": {
+                "date": null,
+                "label": null
+            },
+            "guidance": {
+                "competition_warning": false,
+                "warnings": null
+            },
+            "activities": [],
+            "uris": [
+                {
+                    "type": "latest",
+                    "id": null,
+                    "label": "Latest",
+                    "uri": "/v2/my/programmes/playable?container=p002vsn1&sort=sequential&type=episode&experience=domestic"
+                }
+            ],
+            "play_context": null,
+            "recommendation": null
+        },
+        {
+            "type": "playable_item",
+            "id": "p018dx9v",
+            "urn": "urn:bbc:radio:clip:p018dx9s",
+            "network": {
+                "id": "bbc_world_service",
+                "key": "worldserviceradio",
+                "short_title": "World Service",
+                "logo_url": "https://sounds.files.bbci.co.uk/3.12.0/networks/bbc_world_service/{type}_{size}.{format}",
+                "network_type": "master_brand"
+            },
+            "titles": {
+                "primary": "BBC News Summary",
+                "secondary": "Hunger strike in Guantanamo",
+                "tertiary": null,
+                "entity_title": "Hunger strike in Guantanamo"
+            },
+            "synopses": {
+                "short": "We discuss the hunger strike in Guantanamo Bay.",
+                "medium": "We discuss the hunger strike in Guantanamo Bay.",
+                "long": null
+            },
+            "image_url": "https://ichef.bbci.co.uk/images/ic/{recipe}/p018dx9g.jpg",
+            "duration": {
+                "value": 187,
+                "label": "3 mins"
+            },
+            "progress": null,
+            "container": {
+                "type": "brand",
+                "id": "p002vsn1",
+                "urn": "urn:bbc:radio:brand:p002vsn1",
+                "title": "BBC News Summary",
+                "synopses": {
+                    "short": "The latest two minute news summary from BBC World Service",
+                    "medium": "The latest two minute news summary from BBC World Service.",
+                    "long": null
+                },
+                "activities": []
+            },
+            "download": null,
+            "availability": {
+                "from": "2013-04-30T14:07:10Z",
+                "to": null,
+                "label": "Available for over a year"
+            },
+            "release": {
+                "date": null,
+                "label": null
+            },
+            "guidance": {
+                "competition_warning": false,
+                "warnings": null
+            },
+            "activities": [],
+            "uris": [
+                {
+                    "type": "latest",
+                    "id": null,
+                    "label": "Latest",
+                    "uri": "/v2/my/programmes/playable?container=p002vsn1&sort=sequential&type=episode&experience=domestic"
+                }
+            ],
+            "play_context": null,
+            "recommendation": null
+        }
+    ]
+}
