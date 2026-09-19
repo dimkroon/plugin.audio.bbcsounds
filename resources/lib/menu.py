@@ -7,8 +7,11 @@
 
 from __future__ import annotations
 import json
+import sys
 
 from xbmcgui import ListItem
+import xbmcaddon
+import xbmcplugin
 
 from resources.lib import route
 from resources.lib import parse
@@ -21,7 +24,6 @@ if TYPE_CHECKING:
     from resources.lib.plugin import Plugin
     from resources.lib.typedef import ListItemGenerator
 
-
 def get_page_data(url: str,
                   params: dict | None = None):
     """Return the JSON data embedded in the HTML of a page."""
@@ -31,24 +33,39 @@ def get_page_data(url: str,
 
 
 @route.content
-def main_menu(_) -> ListItemGenerator:
+def main_menu(plugin: Plugin) -> ListItemGenerator:
+    addon = plugin.addon
+    addon_path = addon.getAddonInfo('path')   
+    main_menu_icon_path = addon_path + '/resources/media/mainmenuicons/'
+    list_item = ListItem(label='Home')
+    list_item.setArt({"thumb": main_menu_icon_path + 'home.png'})
     yield (route.build_callback('menu/list_page', page_url='https://www.bbc.co.uk/sounds', slug='Home'),
-           ListItem('Home'),
+           list_item,
            True)
+    list_item = ListItem(label='Music')
+    list_item.setArt({"thumb": main_menu_icon_path + 'music.png'})           
     yield (route.build_callback('menu/list_page', page_url='https://www.bbc.co.uk/sounds/music', slug='Music'),
-           ListItem('Music'),
+           list_item,
            True)
+    list_item = ListItem(label='Podcasts')
+    list_item.setArt({"thumb": main_menu_icon_path + 'podcast.png'})           
     yield (route.build_callback('menu/list_page', page_url='https://www.bbc.co.uk/sounds/podcasts', slug='Podcasts'),
-           ListItem('Podcasts'),
+           list_item,
            True)
+    list_item = ListItem(label='My Sounds')
+    list_item.setArt({"thumb": main_menu_icon_path + 'mysounds.png'})              
     yield (route.build_callback('menu/list_page', page_url='https://www.bbc.co.uk/sounds/my', slug='MySounds'),
-           ListItem('MySounds'),
+           list_item,
            True)
+    list_item = ListItem(label='Radio')
+    list_item.setArt({"thumb": main_menu_icon_path + 'radio.png'})            
     yield (route.build_callback('menu/list_page', page_url='https://www.bbc.co.uk/sounds/stations', slug='Radio'),
-           ListItem('Radio'),
+           list_item,
            True)
+    list_item = ListItem(label='Search')
+    list_item.setArt({"thumb": main_menu_icon_path + 'search.png'})             
     yield (route.build_callback('search/list_search_terms', slug='search'),
-           ListItem('Search'),
+           list_item,
            True)
 
 
