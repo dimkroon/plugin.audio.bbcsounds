@@ -20,3 +20,4 @@
 - [ ] Detect when system settings have changed and reload the app.
 - [ ] Review how to deal with Kodi's player setting 'play next song 
   automatically'.
+- [ ] Investigate if there's any value in providing a way for kids to sign in.

@@ -33,7 +33,8 @@ class TestLoginStatus(TestCase):
 @patch('resources.lib.fetch.cookie_jar', new=MockedCookieJar)
 class TestLoginSession(TestCase):
     @patch('requests.sessions.Session.get',
-           return_value=HttpResponse(text=open_doc('signin/bbc-sign-in-page.html')(), url='https://account.bbc.co.uk/auth'))
+           return_value=HttpResponse(text=open_doc('signin/bbc-sign-in-page.html')(),
+                                     url='https://account.bbc.com/auth?service=IdSignInService'))
     def test_session_initialisation(self, p_get):
         with account.LoginSession() as login:
             result = login.initialise()

@@ -248,11 +248,15 @@ class LoginSession:
             log("Account sign-in aborted; this device is already signed in to a BBC account.")
             localise = xbmcaddon.Addon().getLocalizedString
             raise SignInError(localise(TXT_ALREADY_SIGNED_IN))
-        match = re.search(r'href="/signin/forgotten/credentials\?([^"]+)"', resp.text)
-        # noinspection unresolved-references
-        querystring = unescape(match[1])
+        querystring = unescape(resp.url.split('?')[1])
         self._query_params = dict(parse_qsl(querystring))
-        self._query_params.pop('jsEnabled', None)
+        self._query_params.pop('jsEnabled', None)       # No longer present, but just in case.
+        self._query_params.pop('purpose', None)         # param purpose=free found on international access.
+        self._query_params.update({
+            'journeyGroupType': 'sign-in',
+            'ab':'o13',
+            'ptrt': 'https://www.bbc.co.uk/'
+        })
         self._state = LoginStatus.INITIALISED
         return True
 
@@ -297,7 +301,7 @@ class LoginSession:
         # If sign in is successful, the response should redirect several times and end up on
         # www.bbc.co.uk. The authentication cookies are set in the intermediate responses.
         # Authentication failures are redirected to account.bbc.co.uk/auth.
-        if not resp.url.startswith('https://www.bbc.co.uk'):
+        if not resp.url.startswith('https://www.bbc.co.uk/'):
             self._state = LoginStatus.FAILED
             return False
         self._state = LoginStatus.SIGNED_IN
@@ -346,7 +350,7 @@ class LoginSession:
         if resp.status_code == 200:
             resp_data = json.loads(resp.content)
             resp = self._http_session.get(resp_data['redirectUrl'], timeout=REQ_TIMEOUT)
-            if resp.url.startswith('https://www.bbc.co.uk'):
+            if resp.url.startswith('https://www.bbc.co.uk/'):
                 self._state = LoginStatus.SIGNED_IN
                 return True
             else:
@@ -355,7 +359,7 @@ class LoginSession:
         if resp.status_code == 401:
             resp_data = json.loads(resp.content)
             if resp_data.get('message') != 'notValidatedTokenError':
-                # The link probably timed out before just before our timer expired.
+                # The link probably timed out just before our timer expired.
                 log('LoginSession._check_magic_link_response: Unexpected 401 message: %s', resp_data.get('message'))
                 self._state = LoginStatus.FAILED
                 return False
