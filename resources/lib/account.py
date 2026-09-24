@@ -200,13 +200,13 @@ def log_out(plugin: Plugin):
     if currently_signed_in:
         log("log_out warning: The user was already signed out of their BBC account.")
         xbmcgui.Dialog().notification(DLG_HEADER,
-                                      plugin.translate(TXT_ALREADY_SIGNED_OUT),
+                                      plugin.translate(TXT_LOGOUT_SUCCESS),
                                       xbmcgui.NOTIFICATION_INFO,
                                       time=7000)
     else:
         log("Signed out of BBC account.")
         xbmcgui.Dialog().notification(DLG_HEADER,
-                                      plugin.translate(TXT_LOGOUT_SUCCESS),
+                                      plugin.translate(TXT_ALREADY_SIGNED_OUT),
                                       xbmcgui.NOTIFICATION_INFO,
                                       time=7000)
 
