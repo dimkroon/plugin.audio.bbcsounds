@@ -1,0 +1,6 @@
+old logo raw: https://ichef.bbci.co.uk/images/ic/raw/p06n164c.jpg
+old fanart: https://ichef.bbci.co.uk/images/ic/1920x1080/p06q9hyp.jpg
+current logo raw: https://ichef.bbci.co.uk/images/ic/raw/p0bwmc67.jpg
+current logo 512: https://ichef.bbci.co.uk/images/ic/512x512/p0bwmc67.jpg
+current logo 1080: https://ichef.bbci.co.uk/images/ic/1920x1080/p0bwmc67.jpg
+app logo: https://m.media-amazon.com/images/I/31qJ7MHT3lL.png
