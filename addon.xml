@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.audio.bbcsounds" name="BBC Sounds" version="0.2.0" provider-name="Dimitri Kroon">
+<addon id="plugin.audio.bbcsounds" name="BBC Sounds" version="0.3.0" provider-name="Dimitri Kroon">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
         <import addon="inputstream.adaptive" version="21.5.17"/>
@@ -25,11 +25,10 @@
             <fanart>resources/fanart.jpg</fanart>
         </assets>
         <news>
-0.2.0
-- Fix: Due to a change at the BBC, signing in using either method failed with a TypeError.
-- Fix: In wall views some items did not have a title.
-- Fix: When an item failed to play, the next item played automatically without notice when Kodi's player setting 'play next song automatically' is enabled. This was the cause of some confusing behaviour, in particular when programmes were geo-blocked or required account login.
-- For the same reason, the current audio playlist is cleared when live radio is played.
+0.3.0
+- Restored the possibility to sign in from outside the UK. (regression from 0.2.0)
+- Added main menu icons, thanks @berkhornet
+- Fixed: Wrong message at account sign-out.
         </news>
         <reuselanguageinvoker>false</reuselanguageinvoker>
     </extension>

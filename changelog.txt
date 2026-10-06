@@ -1,3 +1,8 @@
+v 0.3.0 - 07-10-2026
+- Restored the possibility to sign in from outside the UK. (regression from 0.2.0)
+- Added main menu icons, thanks @berkhornet
+- Fixed: Wrong message at account sign-out.
+
 v 0.2.0 - 17-09-2026
 - Fix: Due to a change at the BBC, signing in using either method failed with a TypeError.
 - Fix: In wall views some items did not have a title.
