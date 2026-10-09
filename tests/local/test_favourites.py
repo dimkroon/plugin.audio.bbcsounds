@@ -6,10 +6,9 @@
 # ------------------------------------------------------------------------------
 
 from tests.support import fixtures
-fixtures.global_setup()
 
 from unittest import TestCase
-from unittest.mock import patch, MagicMock
+from unittest.mock import patch
 
 from resources.lib import favourites
 

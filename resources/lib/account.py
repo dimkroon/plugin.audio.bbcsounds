@@ -254,7 +254,7 @@ class LoginSession:
         self._query_params.pop('purpose', None)         # param purpose=free found on international access.
         self._query_params.update({
             'journeyGroupType': 'sign-in',
-            'ab':'o13',
+            'ab': 'o13',
             'ptrt': 'https://www.bbc.co.uk/'
         })
         self._state = LoginStatus.INITIALISED

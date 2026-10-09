@@ -6,13 +6,12 @@
 # ------------------------------------------------------------------------------
 
 from tests.support import fixtures
-fixtures.global_setup()
 
 from unittest import TestCase
 from unittest.mock import patch
 
 from resources.lib import stream
-from tests.support.testutils import open_json, open_doc, HttpResponse
+from tests.support.testutils import open_doc, HttpResponse
 
 
 # noinspection PyPep8Naming

@@ -6,10 +6,8 @@
 # ------------------------------------------------------------------------------
 from __future__ import annotations
 from tests.support import fixtures
-fixtures.global_setup()
 
 from unittest import TestCase
-from unittest.mock import patch
 
 from resources.lib import plugin, stream
 from resources.lib import menu
@@ -94,7 +92,7 @@ class ContainerContent(fixtures.AddonRunner):
 
 
 class Search(fixtures.AddonRunner):
-    def test_search_results(self, p_req, _):
+    def test_search_results(self, _, __):
         argv = self.create_argv('search', 'do_search', keyword='smiths')
         self.run_addon(argv, items_count=20)
 

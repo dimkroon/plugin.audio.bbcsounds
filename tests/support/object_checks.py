@@ -8,11 +8,9 @@
 from __future__ import annotations
 import re
 import time
-import unittest
 
 
-
-def has_keys(dict_obj, *keys, obj_name='dictionary'):
+def has_keys(dict_obj: dict, *keys: str, obj_name: str = 'dictionary'):
     """Checks if all keys are present in the dictionary"""
     keys_set = set(keys)
     present_keys = set(dict_obj.keys()).intersection(keys_set)
@@ -46,8 +44,8 @@ def misses_keys(dict_obj: dict, *keys: str, obj_name: str = 'dictionary') -> boo
     return True
 
 
-def expect_keys(dict_obj: dict, *keys: str, obj_name: str ='dictionary'):
-    """Print a warning if a key is not present, but do not fail a test.
+def expect_keys(dict_obj: dict, *keys: str, obj_name: str = 'dictionary'):
+    """Print a warning if a key is not present but do not fail a test.
     """
     try:
         has_keys(dict_obj, *keys, obj_name=obj_name)
@@ -55,8 +53,8 @@ def expect_keys(dict_obj: dict, *keys: str, obj_name: str ='dictionary'):
         print('Expected', err)
 
 
-def expect_misses_keys(dict_obj, *keys, obj_name='dictionary'):
-    """Print a warning if a key is unexpectedly present, but do not fail a test.
+def expect_misses_keys(dict_obj: dict, *keys: str, obj_name: str = 'dictionary'):
+    """Print a warning if a key is unexpectedly present but do not fail a test.
     """
     try:
         return misses_keys(dict_obj, *keys, obj_name=obj_name)
@@ -65,7 +63,7 @@ def expect_misses_keys(dict_obj, *keys, obj_name='dictionary'):
         return False
 
 
-def is_url(url: str, ext: str| list | tuple | None = None) -> bool:
+def is_url(url: str, ext: str | list | tuple | None = None) -> bool:
     """Short and simple check if the string `url` is indeed a URL.
     This is in no way intended to completely validate the URL - it is just to check
     that the string is not just a callb_path without protocol specification, or just some

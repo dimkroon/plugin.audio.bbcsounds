@@ -455,5 +455,5 @@ class Parser:
         end_time = strptime(end_t, '%H:%M')
         end_utc = start_date.replace(hour=end_time.hour, minute=end_time.minute).astimezone(timezone.utc)
         if start_utc > end_utc:
-            end_utc = end_utc + timedelta(days=1)
+            end_utc += timedelta(days=1)
         return start_utc, end_utc

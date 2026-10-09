@@ -4,13 +4,15 @@
 #  SPDX-License-Identifier: GPL-3.0-or-later
 #  See LICENSE.txt or https://www.gnu.org/licenses/gpl-3.0.txt
 # ------------------------------------------------------------------------------
-
+from __future__ import annotations
 from tests.support import fixtures
-fixtures.global_setup()
 
 from unittest import TestCase
 
 from resources.lib import stream
+
+
+setUpModule = fixtures.setup_web_test()
 
 
 class TestGetJwt(TestCase):

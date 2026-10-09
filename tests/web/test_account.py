@@ -4,12 +4,10 @@
 #  SPDX-License-Identifier: GPL-3.0-or-later
 #  See LICENSE.txt or https://www.gnu.org/licenses/gpl-3.0.txt
 # ------------------------------------------------------------------------------
+from tests.support import fixtures
 
 import time
 import requests
-
-from tests.support import fixtures
-fixtures.global_setup()
 
 from unittest import TestCase, skip
 from unittest.mock import patch, MagicMock

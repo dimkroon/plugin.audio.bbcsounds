@@ -7,7 +7,6 @@
 
 from __future__ import annotations
 from tests.support import fixtures
-fixtures.global_setup()
 
 import re
 import json
@@ -19,6 +18,7 @@ import requests
 from resources.lib import fetch
 
 from support.object_checks import is_not_empty
+# noinspection unused-imports
 from support.testutils import save_json, save_doc
 from tests.support.object_checks import (
     has_keys,
@@ -79,13 +79,14 @@ def check_playable_item(testcase: TestCase, item: dict, obj_name: str):
         check_live_item(testcase, item, obj_name=obj_name)
 
 
+# noinspection unused-parameter
 def check_live_item(testcase: TestCase, item: dict, obj_name: str):
     prgrm_time = item['titles']['secondary']
     start_t, end_t = prgrm_time.split(' - ')
-    parsed_start_t = datetime.strptime(start_t, '%H:%M')
-    parsed_end_t = datetime.strptime(end_t, '%H:%M')
+    datetime.strptime(start_t, '%H:%M')
+    datetime.strptime(end_t, '%H:%M')
     start_date = item['titles']['tertiary']
-    parsed_start_date = datetime.strptime(start_date, '%d/%m/%Y')
+    datetime.strptime(start_date, '%d/%m/%Y')
 
 
 def check_container_item(testcase: TestCase, item: dict, obj_name: str):
@@ -155,7 +156,6 @@ class LiveStationsPages(TestCase):
                 check_live_item(self, station, obj_name=f'{rail["id"]}_{station["id"]}')
 
 
-
 class BrandPage(TestCase):
     # Brand The archers; 6 pages of 29 episodes
     brand_id = 'b006qpgr'
@@ -183,7 +183,8 @@ class BrandPage(TestCase):
 
 class CategoryPage(TestCase):
     def test_category_sienceandtechnology(self):
-        resp = requests.get('https://www.bbc.co.uk/sounds/category/factual-scienceandnature-scienceandtechnology?sort=latest')
+        url = 'https://www.bbc.co.uk/sounds/category/factual-scienceandnature-scienceandtechnology?sort=latest'
+        resp = requests.get(url)
         data = scrape_sound_data(resp.text)
         page_items = data['props']['pageProps']['dehydratedState']['queries'][1]['state']['data']['data']
 
@@ -213,12 +214,13 @@ class CategoryPage(TestCase):
 
 class RmsApi(TestCase):
     # Brand The archers; 6 pages of 29 episodes
-    # brand_id = 'b006qpgr'
+    brand_id = 'b006qpgr'
     #
-    brand_id = 'p0ftp7pt'
+    # brand_id = 'p0ftp7pt'
 
     def test_brand_from_rms(self):
-        url = f'https://rms.api.bbc.co.uk/v2/programmes/playable?container={self.brand_id}&sort=sequential&type=episode&experience=domestic&offset=0&limit=1000'
+        url = (f'https://rms.api.bbc.co.uk/v2/programmes/playable?container={self.brand_id}'
+               '&sort=sequential&type=episode&experience=domestic&offset=0&limit=1000')
         resp = requests.get(url)
         data = resp.json()
         self.assertEqual(data['limit'], 1000)
@@ -241,10 +243,9 @@ class Collections(TestCase):
         data = resp.json()
         self.assertEqual(data['limit'], 1000)
         self.assertGreater(data['total'], 30)
-        brand_ids = set()
         # collect all brand IDs in the collection
         brand_ids = {item['id'] for item in data['data'] if item['type'] == 'container_item'}
-        self.assertGreater(len(brand_ids) , 10)
+        self.assertGreater(len(brand_ids), 10)
         # Check if playable items in the collection already have their brand listed.
         playable_brand_ids = set()
         for item in data['data']:

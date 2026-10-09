@@ -33,7 +33,7 @@ def get_page_data(url: str,
 @route.content
 def main_menu(plugin: Plugin) -> ListItemGenerator:
     addon = plugin.addon
-    addon_path = addon.getAddonInfo('path')   
+    addon_path = addon.getAddonInfo('path')
     main_menu_icon_path = addon_path + '/resources/media/mainmenuicons/'
     list_item = ListItem(label='Home')
     list_item.setArt({"thumb": main_menu_icon_path + 'home.png'})
@@ -41,27 +41,27 @@ def main_menu(plugin: Plugin) -> ListItemGenerator:
            list_item,
            True)
     list_item = ListItem(label='Music')
-    list_item.setArt({"thumb": main_menu_icon_path + 'music.png'})           
+    list_item.setArt({"thumb": main_menu_icon_path + 'music.png'})
     yield (route.build_callback('menu/list_page', page_url='https://www.bbc.co.uk/sounds/music', slug='Music'),
            list_item,
            True)
     list_item = ListItem(label='Podcasts')
-    list_item.setArt({"thumb": main_menu_icon_path + 'podcast.png'})           
+    list_item.setArt({"thumb": main_menu_icon_path + 'podcast.png'})
     yield (route.build_callback('menu/list_page', page_url='https://www.bbc.co.uk/sounds/podcasts', slug='Podcasts'),
            list_item,
            True)
     list_item = ListItem(label='My Sounds')
-    list_item.setArt({"thumb": main_menu_icon_path + 'mysounds.png'})              
+    list_item.setArt({"thumb": main_menu_icon_path + 'mysounds.png'})
     yield (route.build_callback('menu/list_page', page_url='https://www.bbc.co.uk/sounds/my', slug='MySounds'),
            list_item,
            True)
     list_item = ListItem(label='Radio')
-    list_item.setArt({"thumb": main_menu_icon_path + 'radio.png'})            
+    list_item.setArt({"thumb": main_menu_icon_path + 'radio.png'})
     yield (route.build_callback('menu/list_page', page_url='https://www.bbc.co.uk/sounds/stations', slug='Radio'),
            list_item,
            True)
     list_item = ListItem(label='Search')
-    list_item.setArt({"thumb": main_menu_icon_path + 'search.png'})             
+    list_item.setArt({"thumb": main_menu_icon_path + 'search.png'})
     yield (route.build_callback('search/list_search_terms', slug='search'),
            list_item,
            True)

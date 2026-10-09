@@ -10,8 +10,6 @@ import json
 import os.path
 import re
 
-from collections.abc import Iterable
-from unittest.mock import Mock
 from datetime import datetime
 from requests.models import Response
 
@@ -48,27 +46,26 @@ def open_doc(doc):
 
     """
 
-    # noinspection PyUnusedLocal
-    def wrapper(*args, **kwargs):
+    def wrapper(*_, **__):
         with open(doc_path(doc), 'r') as f:
             return f.read()
     return wrapper
 
 
 def save_json(data, filename):
-    """Save a data structure in json format to a file in the test_docs directory"""
+    """Save a data structure in JSON format to a file in the test_docs directory"""
     with open(doc_path(filename), 'w') as f:
         json.dump(data, f)
 
 
 def save_doc(data, filename):
-    """Save a data as text to a file in the test_docs directory"""
+    """Save `data` as text to a file in the test_docs directory"""
     with open(doc_path(filename), 'w') as f:
         f.write(data)
 
 
 def save_binary(data, filename):
-    """Save a data as bytes to a file in the test_docs directory"""
+    """Save `data` as bytes to a file in the test_docs directory"""
     with open(doc_path(filename), 'wb') as f:
         f.write(data)
 
@@ -83,8 +80,8 @@ class HttpResponse(Response):
                  headers: dict | None = None,
                  content: bytes | None = None,
                  text: str | None = None,
-                 reason: str = None,
-                 url: str  = None):
+                 reason: str | None = None,
+                 url: str | None = None):
         super().__init__()
         if status_code is not None:
             self.status_code = status_code

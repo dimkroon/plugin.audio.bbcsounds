@@ -10,18 +10,21 @@ import importlib
 import os
 import sys
 import re
-from typing import Dict, List, Tuple
+
 from urllib.parse import urlencode
 from unittest import TestCase
 from unittest.mock import patch, MagicMock
-from collections.abc import Callable
 
 import xbmc
 import xbmcvfs
 import xbmcgui
 import xbmcaddon
 
-from resources.lib import plugin
+
+from typing import Dict, List, Tuple, TYPE_CHECKING
+if TYPE_CHECKING:
+    from collections.abc import Callable
+    from resources.lib.typedef import ListItemGenerator
 
 
 patch_g = None
@@ -30,11 +33,11 @@ ADDON_ID = 'plugin.audio.bbcsounds'
 
 
 def global_setup():
-    """Fixture required for all test.
+    """Fixture required for all tests.
     Ensure this is imported and called in every test module first thing. At least before
     importing any other module from the project or other kodi related module.
 
-    As it is global for all tests there is no need to tear down.
+    As it is global for all tests, there is no need to tear down.
 
     """
     global patch_g
@@ -46,7 +49,7 @@ def global_setup():
                     'id': ADDON_ID,
                     'name': 'BBC Sounds'}
         patch_g = patch('xbmcaddon.Addon.getAddonInfo',
-                         new=lambda self, item: info_map.get(item, ''))
+                        new=lambda self, item: info_map.get(item, ''))
         patch_g.start()
 
         # Translate callb_path with special:// protocol to a callb_path in the kodifs directory on the
@@ -85,8 +88,6 @@ def tear_down_local_tests():
         patch_1 = None
 
 
-
-
 credentials_set = False
 
 
@@ -105,7 +106,7 @@ def ensure_signed_in() -> None:
             if 'ckns_rtkn="' in cookies and 'ckns_atkn="' in cookies:
                 credentials_set = True
                 return
-    except OSError as err:
+    except OSError:
         pass
 
     try:
@@ -123,12 +124,13 @@ def ensure_signed_in() -> None:
         sys.exit(1)
 
 
-def setup_web_test(*args):
+def setup_web_test(*_):
     # Sign in once per test run.
     if not credentials_set:
         ensure_signed_in()
 
 
+# noinspection unused-parameter
 def print_log(message: str, level: int) -> None:
     print(message)
 
@@ -331,7 +333,7 @@ def localise_mock(self, str_id):
         test_dir = os.path.normpath(os.path.join(str(os.path.dirname(__file__)), '../'))
         lang_file = os.path.join(
             test_dir,
-            f'../resources/language/resource.language.en_gb/strings.po')
+            '../resources/language/resource.language.en_gb/strings.po')
         with open(lang_file) as f:
             lang_texts = f.read()
         match = re.search(pattern, lang_texts)
@@ -364,6 +366,12 @@ class FileMock(xbmcvfs.File):
 
     def __exit__(self, exc_type, exc_val, exc_tb):
         self.close()
+
+
+global_setup()
+
+
+from resources.lib import plugin
 
 
 class AddonRunner(TestCase):
@@ -433,7 +441,7 @@ class AddonRunner(TestCase):
         return items_collector
 
     def run_callback(self,
-                     callb_func: Callable[..., tuple[str, xbmcgui.ListItem, bool] | xbmcgui.ListItem | None],
+                     callb_func: Callable[..., ListItemGenerator | xbmcgui.ListItem | None],
                      **kwargs,
                      ):
         callb_module = callb_func.__module__
@@ -443,4 +451,3 @@ class AddonRunner(TestCase):
         mod = importlib.import_module(callb_module)
         callb_func = getattr(mod, callb_name)
         return callb_func(addon, **kwargs)
-

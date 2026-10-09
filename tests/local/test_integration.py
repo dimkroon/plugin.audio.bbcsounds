@@ -6,11 +6,8 @@
 # ------------------------------------------------------------------------------
 from __future__ import annotations
 from tests.support import fixtures
-fixtures.global_setup()
 
 from unittest.mock import patch
-
-from resources.lib import menu
 
 from tests.support.testutils import open_doc, HttpResponse
 

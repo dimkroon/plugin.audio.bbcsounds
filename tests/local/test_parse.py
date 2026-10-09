@@ -6,10 +6,8 @@
 # ------------------------------------------------------------------------------
 
 from tests.support import fixtures
-fixtures.global_setup()
 
 from unittest import TestCase
-from unittest.mock import MagicMock
 
 from resources.lib import parse, plugin
 from tests.support.testutils import open_json
