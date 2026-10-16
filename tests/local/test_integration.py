@@ -125,6 +125,10 @@ class TestRail(fixtures.AddonRunner):
 
 @patch('resources.lib.search.SearchHistory.update_last_used')
 class Search(fixtures.AddonRunner):
+    def test_list_history(self, _):
+        argv = self.create_argv('search', 'list_search_terms')
+        self.run_addon(argv, None, items_count=4)
+
     @patch('resources.lib.fetch.get', return_value=HttpResponse(text=open_doc('search_smiths.json')()))
     def test_search_results(self, p_req, _):
         argv = self.create_argv('search', 'do_search', keyword='smiths')

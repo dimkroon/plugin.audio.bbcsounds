@@ -113,7 +113,8 @@ class Plugin:
 
         self.execute_delayed()
 
-    def _validate_item(self, content_item):
+    @staticmethod
+    def _validate_item(content_item: ListItemTuple) -> ListItemTuple:
         li = content_item[1]
         info = li.getVideoInfoTag()
         # Ensure a title is set to support wall views.
