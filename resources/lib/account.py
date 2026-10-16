@@ -298,11 +298,11 @@ class LoginSession:
                                        params=self._query_params,
                                        data={'username': self._email, 'password': password},
                                        timeout=REQ_TIMEOUT)
+        resp.raise_for_status()
         # If sign in is successful, the response should redirect several times and end up on
         # www.bbc.co.uk. The authentication cookies are set in the intermediate responses.
         # Authentication failures are redirected to account.bbc.co.uk/auth.
         if not resp.url.startswith('https://www.bbc.co.uk/'):
-            self._state = LoginStatus.FAILED
             return False
         self._state = LoginStatus.SIGNED_IN
         return True

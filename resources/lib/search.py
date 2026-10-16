@@ -45,7 +45,7 @@ class SearchHistory:
             with open(self.full_path, 'r', encoding='utf8') as f:
                 data = json.load(f)
                 return data
-        except (OSError, KeyError, TypeError) as err:
+        except (OSError, KeyError, TypeError, json.JSONDecodeError) as err:
             log("Error: Failed to read search history file: %r.", err)
             return {}
 
@@ -154,19 +154,20 @@ def list_search_terms(plugin: Plugin, slug=''):
                       'SpecialSort': 'top'})
     yield build_callback('search/new_search'), li, False
 
-    cmd_fmt = f'RunPlugin(plugin://{plugin.addon_id}/search/context_menu?action=%s&keyword=%s)'
     cmd_clear_history = f'RunPlugin(plugin://{plugin.addon_id}/search/context_menu?action=clear)'
 
     for keyword, date_info in search_history:
-        ctx_mnu = [(txt_remove, cmd_fmt % ('remove', keyword)),
-                   (txt_edit, cmd_fmt % ('edit', keyword)),
+        cmd_remove = f"RunPlugin({build_callback('search/context_menu', action='remove', keyword=keyword)})"
+        cmd_edit = f"RunPlugin({build_callback('search/context_menu', action='edit', keyword=keyword)})"
+        ctx_mnu = [(txt_remove, cmd_remove),
+                   (txt_edit, cmd_edit),
                    (txt_clear, cmd_clear_history)
                    ]
         li = xbmcgui.ListItem(keyword, offscreen=True)
         li.addContextMenuItems(ctx_mnu)
         info = li.getVideoInfoTag()
         info.setDateAdded(datetime.fromtimestamp(date_info['created']).strftime('%Y-%m-%d %H:%M:%S'))
-        yield build_callback('/search/do_search', keyword=keyword, slug='search / ' + keyword), li, True
+        yield build_callback('search/do_search', keyword=keyword, slug='search / ' + keyword), li, True
 
     plugin.set_sort_methods({xbmcplugin.SORT_METHOD_DATEADDED})
 
@@ -177,7 +178,7 @@ def new_search(plugin: Plugin):
     if keyword:
         history = SearchHistory(plugin.user_dir)
         history.append(keyword)
-        url = build_callback('/search/do_search', keyword=keyword)
+        url = build_callback('search/do_search', keyword=keyword)
         xbmc.executebuiltin(f'Container.Update({url})')
 
 

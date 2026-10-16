@@ -79,7 +79,8 @@ def refresh_tokens(session: requests.Session) -> bool:
         params={'ptrt': return_url,
                 'context': 'iplayerradio',
                 'userOrigins': 'sounds'},
-        allow_redirects=False
+        allow_redirects=False,
+        timeout=REQ_TIMEOUT
     )
     return resp.headers.get('location') == return_url
 

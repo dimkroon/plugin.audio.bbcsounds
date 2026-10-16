@@ -116,6 +116,7 @@ def select_stream_url(media_id: str,
         if kind == 'audio':
             if media_set.get('bitrate', 0) > highest_bitrate:
                 selected_media_set = media_set
+                highest_bitrate = media_set['bitrate']
         # Currently, Kodi doesn't seem able to do anything with captions on audio streams
         # elif kind == 'captions' and media_set.get('presentation_type') == 'static':
         #     for connection in media_set['connection']:

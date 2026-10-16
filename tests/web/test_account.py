@@ -80,6 +80,21 @@ class TestLogin(TestCase):
         # noinspection unresolved-references
         fetch.cookie_jar().save.assert_not_called()
 
+    def test_login_retry(self):
+        """First attempt with an invalid password and then with a valid one."""
+        with account.LoginSession() as session:
+            session.check_email(credentials.uname)
+            result = session.sign_in_with_password('lshalkjhn')
+            self.assertFalse(result)
+            result = session.sign_in_with_password(credentials.passw)
+            self.assertTrue(result)
+        cookie_names = [cookie.name for cookie in fetch.cookie_jar()]
+        self.assertTrue('ckns_idtkn' in cookie_names)
+        self.assertTrue('ckns_atkn' in cookie_names)
+        self.assertTrue('ckns_rtkn' in cookie_names)
+        # noinspection unresolved-references
+        fetch.cookie_jar().save.assert_called_once()
+
 
 @skip('This should be done manually')
 @patch('resources.lib.fetch.LWPCookieJar', new=MockedCookieJar)
