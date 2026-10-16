@@ -30,6 +30,6 @@
 - Added main menu icons, thanks @berkhornet
 - Fixed: Wrong message at account sign-out.
         </news>
-        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
     </extension>
 </addon>

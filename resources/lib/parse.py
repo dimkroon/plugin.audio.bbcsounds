@@ -79,9 +79,9 @@ def get_rail_url(rail_item: dict) -> str | None:
     if not page_data:
         return None
     # The page handler will add the required pagination arguments.
-    # FIXME: This fails if these parameters are the only one in the querystring
-    #        or appear in a different order.
-    path = page_data['uri'].replace('&offset={offset}&limit={limit}', '')
+    path = page_data['uri'].replace('&offset={offset}', '').replace('&limit={limit}', '')
+    if path.endswith('?'):
+        path = path[:-1]
     return RMS_DOMAIN + path
 
 

@@ -355,7 +355,7 @@ class LoginSession:
                 return True
             else:
                 log('LoginSession._check_magic_link_response: Unexpected redirect: %s', resp.url)
-                raise SignInError("Unexpect sign in result, Check the log for more details.")
+                raise SignInError("Unexpected sign in result, Check the log for more details.")
         if resp.status_code == 401:
             resp_data = json.loads(resp.content)
             if resp_data.get('message') != 'notValidatedTokenError':
