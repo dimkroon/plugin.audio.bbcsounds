@@ -25,10 +25,8 @@
             <fanart>resources/fanart.jpg</fanart>
         </assets>
         <news>
-0.3.0
-- Restored the possibility to sign in from outside the UK. (regression from 0.2.0)
-- Added main menu icons, thanks @berkhornet
-- Fixed: Wrong message at account sign-out.
+1.0.0
+- First full release
         </news>
         <reuselanguageinvoker>true</reuselanguageinvoker>
     </extension>
