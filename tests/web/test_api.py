@@ -116,7 +116,7 @@ class WebPage(TestCase):
         # save_doc(resp.text, 'homepage.html')
         data = scrape_sound_data(resp.text)
         # save_json(data, 'homepage.json')
-        rails = data['props']['pageProps']['dehydratedState']['queries'][1]['state']['data']['data']
+        rails = data['props']['pageProps']['dehydratedState']['queries'][-1]['state']['data']['data']
         for rail in rails:
             obj_name = obj_name + '/rail_' + rail['title']
             if check_rail(self, rail, obj_name) is False:
@@ -163,7 +163,7 @@ class BrandPage(TestCase):
     def test_get_multipage_episodes_default_page(self):
         resp = requests.get(f'https://www.bbc.co.uk/sounds/brand/{self.brand_id}')
         data = scrape_sound_data(resp.text)
-        page_items = data['props']['pageProps']['dehydratedState']['queries'][1]['state']['data']['data']
+        page_items = data['props']['pageProps']['dehydratedState']['queries'][-1]['state']['data']['data']
 
         header = page_items[0]
         self.assertEqual(header['type'], 'inline_header_module')
@@ -186,7 +186,7 @@ class CategoryPage(TestCase):
         url = 'https://www.bbc.co.uk/sounds/category/factual-scienceandnature-scienceandtechnology?sort=latest'
         resp = requests.get(url)
         data = scrape_sound_data(resp.text)
-        page_items = data['props']['pageProps']['dehydratedState']['queries'][1]['state']['data']['data']
+        page_items = data['props']['pageProps']['dehydratedState']['queries'][-1]['state']['data']['data']
 
         header = page_items[0]
         self.assertEqual(header['type'], 'inline_header_module')
