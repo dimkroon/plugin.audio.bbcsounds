@@ -7,19 +7,13 @@
 
 from tests.support import fixtures
 
-from unittest import TestCase
 from unittest.mock import patch
 
 from resources.lib import stream
 from tests.support.testutils import open_doc, HttpResponse
 
 
-# noinspection PyPep8Naming
-setUpModule = fixtures.setup_local_tests
-tearDownModule = fixtures.tear_down_local_tests
-
-
-class GetJwt(TestCase):
+class GetJwt(fixtures.LocalTestCase):
     @patch('resources.lib.fetch.get', return_value=HttpResponse(text=open_doc('live_bbc-one.html')()))
     def test_get_jwt_for_live(self, p_get):
         resp = stream.get_jwt('http://path.to.bbc-one')

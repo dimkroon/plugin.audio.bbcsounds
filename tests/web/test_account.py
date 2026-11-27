@@ -26,6 +26,9 @@ class MockedCookieJar(requests.cookies.RequestsCookieJar):
     def __init__(self, *_):
         # Drop the filename passed to the constructor
         super().__init__()
+        self.load.reset_mock()
+        self.save.reset_mock()
+
     load = MagicMock()
     save = MagicMock()
 

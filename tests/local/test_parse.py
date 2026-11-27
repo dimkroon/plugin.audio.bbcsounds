@@ -7,7 +7,6 @@
 
 from tests.support import fixtures
 
-from unittest import TestCase
 
 from resources.lib import parse, plugin
 from tests.support.testutils import open_json
@@ -16,12 +15,7 @@ from tests.support.testutils import open_json
 SYS_ARGS = ['plugin://plugin.audio.bbcsounds', '1', '', 'resume:false']
 
 
-# noinspection PyPep8Naming
-setUpModule = fixtures.setup_local_tests
-tearDownModule = fixtures.tear_down_local_tests
-
-
-class TestFormatImage(TestCase):
+class TestFormatImage(fixtures.LocalTestCase):
     def test_format_image(self):
         imgurl = 'https://my.server/{recipe}/p0ny9f4c.jpg'
         url = parse.format_img(imgurl)
@@ -32,7 +26,7 @@ class TestFormatImage(TestCase):
         self.assertEqual(url, 'https://my.server/1280x720/p0ny9f4c.jpg')
 
 
-class ParseRail(TestCase):
+class ParseRail(fixtures.LocalTestCase):
     def test_homepage_rails(self):
         home_data = open_json('homepage.json')
         rails = home_data['props']['pageProps']['dehydratedState']['queries'][1]['state']['data']['data']
@@ -53,7 +47,7 @@ class ParseRail(TestCase):
         self.assertIsNone(result)
 
 
-class ParsePlayableItem(fixtures.AddonRunner):
+class ParsePlayableItem(fixtures.LocalTestCase):
     def test_parse_live_playables_from_homepage(self):
         home_data = open_json('homepage.json')
         rails = home_data['props']['pageProps']['dehydratedState']['queries'][1]['state']['data']['data']

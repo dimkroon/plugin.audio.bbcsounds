@@ -7,16 +7,15 @@
 from __future__ import annotations
 from tests.support import fixtures
 
-from unittest import TestCase
+from unittest.mock import patch
 
-from resources.lib import plugin, stream
+from resources.lib import stream
 from resources.lib import menu
 
+from web.test_account import MockedCookieJar
 
-setUpModule = fixtures.setup_web_test
 
-
-class TestPages(fixtures.AddonRunner):
+class TestPages(fixtures.WebTestCase):
     def test_home_page(self):
         argv = self.create_argv('menu', 'list_page', page_url='https://www.bbc.co.uk/sounds')
         self.run_addon(argv, items_min=8)
@@ -38,7 +37,7 @@ class TestPages(fixtures.AddonRunner):
         self.run_addon(argv, items_count=2)
 
 
-class TestRail(fixtures.AddonRunner):
+class TestRail(fixtures.WebTestCase):
     def test_main_page_rail_content(self):
         for rail_id in (
                 # 'listen_live',
@@ -50,13 +49,20 @@ class TestRail(fixtures.AddonRunner):
                 'local_rail',
                 'collections',
                 'categories',):
-            self.run_callback(menu.list_rail,
-                              callb_kwargs={'page_url': 'https://www.bbc.co.uk/sounds', 'rail_id': rail_id},
-                              items_min=6)
+            items = self.run_callback(
+                    menu.list_rail,
+                    page_url='https://www.bbc.co.uk/sounds',
+                    rail_id=rail_id)
+            self.assertGreater(len(items), 6)
 
-    def test_music_page_hero_rail_content(self):
-        argv = self.create_argv('menu', 'list_rail', page_url='https://www.bbc.co.uk/muscic', rail_id='music_hero')
-        self.run_addon(argv, items_min=6)
+    @patch('resources.lib.fetch.cookie_jar', MockedCookieJar)
+    def test_main_page_rail_not_signed_in(self):
+        rail_id = 'unmissable_speech'
+        items = self.run_callback(
+            menu.list_rail,
+            page_url='https://www.bbc.co.uk/sounds',
+            rail_id=rail_id)
+        self.assertGreater(len(items), 6)
 
     def test_podcasts_rail_content(self):
         for rail_id in (
@@ -71,10 +77,10 @@ class TestRail(fixtures.AddonRunner):
                 'container_list_podcasts_comedy',
                 'container_list_podcasts_sport',
                 'container_list_podcasts',):
-            argv = self.create_argv('menu', 'list_rail', page_url='https://www.bbc.co.uk/sounds', rail_id=rail_id)
+            argv = self.create_argv('menu', 'list_rail', page_url='https://www.bbc.co.uk/podcasts', rail_id=rail_id)
             self.run_addon(argv, items_min=6)
 
-    def test_live_stations_rail_content(self, _):
+    def test_live_stations_rail_content(self,):
         # National stations
         argv = self.create_argv('menu', 'list_rail',
                                 page_url='https://www.bbc.co.uk/sounds/stations',
@@ -82,35 +88,44 @@ class TestRail(fixtures.AddonRunner):
         self.run_addon(argv, items_min=10)
 
 
-class ContainerContent(fixtures.AddonRunner):
+class ContainerContent(fixtures.WebTestCase):
     def test_news_summary_page(self, ):
         argv = self.create_argv('menu', 'list_container_content', urn='urn:bbc:radio:brand:p0ddbgqd')
         self.run_addon(argv, items_min=20)
 
     def test_series(self):
-        self.run_callback(menu.list_container_content, callb_kwargs={'urn': 'urn:bbc:radio:series:m001rgzp'})
+        self.run_callback(menu.list_container_content, urn='urn:bbc:radio:series:m001rgzp')
+
+    def test_collection(self):
+        col_id =  'p0dmj1v8'    # collection "Discover podcasts"
+        items = list(self.run_callback(menu.list_container_content, urn=f'urn:bbc:radio:collection:{col_id}'))
+        self.assertGreater(len(items), 6)
+
+    @patch('resources.lib.fetch.cookie_jar', MockedCookieJar)
+    def test_collection_not_signed_in(self):
+        col_id =  'p0dmj1v8'    # collection "Discover podcasts"
+        items = list(self.run_callback(menu.list_container_content, urn=f'urn:bbc:radio:collection:{col_id}'))
+        self.assertGreater(len(items), 6)
+
+    @patch('resources.lib.fetch.cookie_jar', MockedCookieJar)
+    def test_collection_not_signed_in_without_settings(self):
+        col_id =  'p0dmj1v8'    # collection "Discover podcasts"
+        items = list(self.run_callback(menu.list_container_content, urn=f'urn:bbc:radio:collection:{col_id}'))
+        self.assertGreater(len(items), 6)
 
 
-class Search(fixtures.AddonRunner):
-    def test_search_results(self, _, __):
+@patch('resources.lib.search.SearchHistory.update_last_used')
+class Search(fixtures.WebTestCase):
+    def test_search_results(self, _):
         argv = self.create_argv('search', 'do_search', keyword='smiths')
         self.run_addon(argv, items_count=20)
 
-    def test_search_without_results(self, ):
+    def test_search_without_results(self, _):
         argv = self.create_argv('search', 'do_search', keyword='blablabla')
         self.run_addon(argv, items_count=0)
 
 
-class TestLogin(TestCase):
-    def test_login_with_password(self):
-        addon = plugin.Plugin(['plugin://plugin.audio.bbcsounds/resources/lib/account/login_with_passw',
-                               '-1',
-                               '',
-                               'resume:false'])
-        addon.run()
-
-
-class PlayStream(fixtures.AddonRunner):
+class PlayStream(fixtures.WebTestCase):
     def test_play_live_omega(self):
         self.kodi_version = '21'
         item = self.run_callback(stream.play_live, service_id='bbc_radio_one')

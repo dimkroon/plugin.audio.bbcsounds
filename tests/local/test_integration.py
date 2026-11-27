@@ -7,7 +7,9 @@
 from __future__ import annotations
 from tests.support import fixtures
 
-from unittest.mock import patch
+from unittest.mock import patch, MagicMixin, MagicMock
+
+from resources.lib import route
 
 from tests.support.testutils import open_doc, HttpResponse
 
@@ -17,7 +19,7 @@ setUpModule = fixtures.setup_local_tests
 tearDownModule = fixtures.tear_down_local_tests
 
 
-class TestPages(fixtures.AddonRunner):
+class TestPages(fixtures.LocalTestCase):
     @patch('resources.lib.fetch.get')
     def test_main_page(self, p_req):
         self.run_addon(['plugin://plugin.audio.bbcsounds', '1', '', 'resume:false'], items_count=6)
@@ -44,7 +46,7 @@ class TestPages(fixtures.AddonRunner):
         self.run_addon(argv, p_req, items_count=4)
 
 
-class ContainerContent(fixtures.AddonRunner,):
+class ContainerContent(fixtures.LocalTestCase,):
     @patch('resources.lib.fetch.get', return_value=HttpResponse(text=open_doc('news-summary.json')()))
     def test_news_summary_page(self, p_req,):
         argv = self.create_argv('menu', 'list_container_content', urn='urn:bbc:radio:brand:p0ddbgqd')
@@ -61,7 +63,7 @@ class ContainerContent(fixtures.AddonRunner,):
         self.run_addon(argv, p_req, items_count=20)
 
 
-class TestRail(fixtures.AddonRunner):
+class TestRail(fixtures.LocalTestCase):
     def test_main_page_rail_content(self):
         for rail_id in (
                 'listen_live',
@@ -124,7 +126,7 @@ class TestRail(fixtures.AddonRunner):
 
 
 @patch('resources.lib.search.SearchHistory.update_last_used')
-class Search(fixtures.AddonRunner):
+class Search(fixtures.LocalTestCase):
     def test_list_history(self, _):
         argv = self.create_argv('search', 'list_search_terms')
         self.run_addon(argv, None, items_count=4)
@@ -138,3 +140,16 @@ class Search(fixtures.AddonRunner):
     def test_search_without_results(self, p_req, _):
         argv = self.create_argv('search', 'do_search', keyword='blablabla')
         self.run_addon(argv, p_req, items_count=0)
+
+
+class TestLogin(fixtures.LocalTestCase):
+    @patch('resources.lib.account.login_with_passw')
+    def test_login_with_password(self, p_login):
+        """Just checks if the addon is called correctly.
+
+        """
+        patched_login = MagicMock()
+        patched_login.expose = route.SCRIPT
+        with patch('resources.lib.account.login_with_passw', patched_login):
+            self.run_addon(self.create_argv('account', 'login_with_passw'))
+        patched_login.assert_called_once()

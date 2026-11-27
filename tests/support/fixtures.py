@@ -376,23 +376,9 @@ from resources.lib import plugin
 
 class AddonRunner(TestCase):
     def __init__(self, *args, **kwargs):
-        self.subscriptions = kwargs.pop('subscriptions', [])
-        self.bookmarks = kwargs.pop('bookmarks', [])
         self.kodi_version = kwargs.pop('kodi_version', '3.28.0')
         # TODO: Make default version configurable, e.g. by environment variable.
         super().__init__(*args, **kwargs)
-
-    def setUp(self):
-        self._subs_patch = patch('resources.lib.favourites._Favourites.subscriptions',
-                                 return_value=set(self.subscriptions))
-        self._bookm_patch = patch('resources.lib.favourites._Favourites.bookmarks',
-                                  return_value=set(self.bookmarks))
-        self._subs_patch.start()
-        self._bookm_patch.start()
-
-    def tearDown(self) -> None:
-        self._subs_patch.stop()
-        self._bookm_patch.stop()
 
     @property
     def kodi_version(self):
@@ -451,3 +437,33 @@ class AddonRunner(TestCase):
         mod = importlib.import_module(callb_module)
         callb_func = getattr(mod, callb_name)
         return callb_func(addon, **kwargs)
+
+
+class LocalTestCase(AddonRunner):
+    def __init__(self, *args, **kwargs):
+        self.subscriptions = kwargs.pop('subscriptions', [])
+        self.bookmarks = kwargs.pop('bookmarks', [])
+        super().__init__(*args, **kwargs)
+
+    def setUp(self):
+        setup_local_tests()
+        self._subs_patch = patch('resources.lib.favourites._Favourites.subscriptions',
+                                 return_value=set(self.subscriptions))
+        self._bookm_patch = patch('resources.lib.favourites._Favourites.bookmarks',
+                                  return_value=set(self.bookmarks))
+        self._subs_patch.start()
+        self._bookm_patch.start()
+
+    def tearDown(self) -> None:
+        tear_down_local_tests()
+        self._subs_patch.stop()
+        self._bookm_patch.stop()
+
+
+class WebTestCase(AddonRunner):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+    @classmethod
+    def setUpClass(cls):
+        setup_web_test()
